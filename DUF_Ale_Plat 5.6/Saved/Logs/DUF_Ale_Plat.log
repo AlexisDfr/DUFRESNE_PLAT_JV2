@@ -7207,3 +7207,925 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.18-09.58.31:625][374]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/H2T7GMZJ61B3XFX7X0AJCQ_Auto5735C00FD4D918CD0516C1FB805EF3869.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Autosaves/Game/__ExternalActors__/Level/Lvl_ThirdPerson/3/AG/H2T7GMZJ61B3XFX7X0AJCQ_Auto5.uasset'
 [2025.12.18-09.58.31:627][374]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Lvl_ThirdPerson' took 0.048
 [2025.12.18-09.58.31:627][374]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2025.12.18-09.59.29:690][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-09.59.29:746][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/UI/BP_HP] ([2] browsable assets)...
+[2025.12.18-09.59.29:746][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/UI/BP_HP]
+[2025.12.18-09.59.29:746][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/UI/BP_HP" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/UI/BP_HP.uasset" SILENT=true
+[2025.12.18-09.59.29:754][808]LogSavePackage: Moving output files for package: /Game/Blueprint/UI/BP_HP
+[2025.12.18-09.59.29:754][808]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_HP7B56BEC14ACE313442F0A587CA7DF98A.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/UI/BP_HP.uasset'
+[2025.12.18-09.59.29:766][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.740 ms (total: 5.39 sec)
+[2025.12.18-09.59.29:812][808]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.18-09.59.29:812][808]LogContentValidation: Enabled validators:
+[2025.12.18-09.59.29:812][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-09.59.29:812][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-09.59.29:812][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-09.59.29:812][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-09.59.29:812][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-09.59.29:812][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-09.59.29:812][808]AssetCheck: /Game/Blueprint/UI/BP_HP Validating asset
+[2025.12.18-09.59.29:832][808]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.18-09.59.48:892][660]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.12.18-09.59.59:235][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.12.18-09.59.59:427][653]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.12.18-09.59.59:434][653]LogSlate: Took 0.006574 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.12.18-10.00.01:286][653]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.18-10.00.01:396][653]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.00.01:396][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.00.01:425][653]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint/UI/BP_HP.BP_HP
+	Asset Type: Blueprint
+[2025.12.18-10.00.01:698][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.18-10.00.01:728][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.12.18-10.00.01:755][653]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.18-10.00.01:785][653]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.12.18-10.00.27:814][ 40]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.12.18-10.00.27:832][ 40]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8972.072266
+[2025.12.18-10.00.28:018][ 50]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.00.28:018][ 50]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8972.249023, Update Interval: 339.101532
+[2025.12.18-10.01.10:152][193]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.12.18-10.01.10:158][193]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.12.18-10.01.10:165][193]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.12.18-10.01.10:181][194]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.12.18-10.01.18:970][243]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_HP
+[2025.12.18-10.01.18:978][243]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.12.18-10.01.20:457][386]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprint/UI/WB_HP.WB_HP
+[2025.12.18-10.01.20:458][386]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2025.12.18-10.01.20:468][386]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_39
+[2025.12.18-10.01.25:119][816]LogSlate: Window 'WB_HP' being destroyed
+[2025.12.18-10.01.52:053][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.01.52:053][858]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WB_HP] ([2] browsable assets)...
+[2025.12.18-10.01.52:056][858]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WB_HP.WB_HP]
+[2025.12.18-10.01.52:056][858]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WB_HP]
+[2025.12.18-10.01.52:056][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WB_HP" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WB_HP.uasset" SILENT=true
+[2025.12.18-10.01.52:061][858]LogSavePackage: Moving output files for package: /Game/UI/WB_HP
+[2025.12.18-10.01.52:061][858]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/WB_HPF360E54647AC645041F38FA7AD9CC27C.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WB_HP.uasset'
+[2025.12.18-10.01.52:067][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.713 ms (total: 5.40 sec)
+[2025.12.18-10.01.52:142][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.12.18-10.01.52:170][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.12.18-10.01.52:196][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.12.18-10.01.52:214][858]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.12.18-10.01.52:214][858]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.18-10.01.52:214][858]LogContentValidation: Enabled validators:
+[2025.12.18-10.01.52:214][858]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-10.01.52:214][858]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-10.01.52:214][858]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-10.01.52:214][858]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-10.01.52:214][858]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-10.01.52:214][858]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-10.01.52:215][858]AssetCheck: /Game/UI/WB_HP Validating asset
+[2025.12.18-10.01.52:228][858]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.18-10.02.12:206][ 48]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_TitleScreen.WBP_TitleScreen
+[2025.12.18-10.02.12:207][ 48]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_41
+[2025.12.18-10.02.12:215][ 48]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_42
+[2025.12.18-10.02.36:797][878]LogEditorTransaction: Undo Drag and Drop Widget
+[2025.12.18-10.03.34:807][450]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_PlayerInfo.WBP_PlayerInfo
+[2025.12.18-10.03.34:808][450]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2025.12.18-10.03.34:821][450]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2025.12.18-10.04.12:408][458]LogSlate: Window 'Color Picker' being destroyed
+[2025.12.18-10.04.46:345][244]LogSlate: Window 'Color Picker' being destroyed
+[2025.12.18-10.06.17:413][222]LogContentBrowser: Attempting asset rename: WB_HP -> WBP_HP
+[2025.12.18-10.06.17:526][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.06.17:527][222]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WBP_HP] ([2] browsable assets)...
+[2025.12.18-10.06.17:529][222]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WBP_HP.WBP_HP]
+[2025.12.18-10.06.17:529][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WBP_HP]
+[2025.12.18-10.06.17:529][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HP" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WBP_HP.uasset" SILENT=true
+[2025.12.18-10.06.17:535][222]LogSavePackage: Moving output files for package: /Game/UI/WBP_HP
+[2025.12.18-10.06.17:535][222]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/WBP_HP57D557E64B6AFBA9ECB236BE3ED90A2B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WBP_HP.uasset'
+[2025.12.18-10.06.17:541][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 14.061 ms (total: 5.41 sec)
+[2025.12.18-10.06.17:645][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.12.18-10.06.17:675][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.12.18-10.06.17:703][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.12.18-10.06.17:759][222]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.18-10.06.17:759][222]LogContentValidation: Enabled validators:
+[2025.12.18-10.06.17:759][222]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-10.06.17:759][222]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-10.06.17:759][222]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-10.06.17:760][222]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-10.06.17:760][222]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-10.06.17:760][222]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-10.06.17:760][222]AssetCheck: /Game/UI/WBP_HP Validating asset
+[2025.12.18-10.06.17:827][222]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.18-10.06.58:250][421]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9362.716797
+[2025.12.18-10.06.58:383][436]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.06.58:383][436]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9362.840820, Update Interval: 348.253418
+[2025.12.18-10.07.44:926][575]LogStreaming: Display: FlushAsyncLoading(931): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.18-10.10.50:509][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.12.18-10.10.50:517][795]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level/Lvl_ThirdPerson/3/AG/H2T7GMZJ61B3XFX7X0AJCQ_Auto5
+[2025.12.18-10.10.50:518][795]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/H2T7GMZJ61B3XFX7X0AJCQ_Auto558A25FED497842EA3F0677A27AC97E77.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Autosaves/Game/__ExternalActors__/Level/Lvl_ThirdPerson/3/AG/H2T7GMZJ61B3XFX7X0AJCQ_Auto5.uasset'
+[2025.12.18-10.10.50:519][795]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Lvl_ThirdPerson' took 0.043
+[2025.12.18-10.10.50:519][795]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2025.12.18-10.10.50:519][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.18-10.10.50:647][795]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.18-10.10.50:647][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.18-10.10.50:663][795]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto5
+[2025.12.18-10.10.50:663][795]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonCharacter_Auto5B397CB3040372DC578A417BCA4AD8FD6.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Autosaves/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto5.uasset'
+[2025.12.18-10.13.42:901][885]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9767.426758
+[2025.12.18-10.13.43:049][899]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.13.43:049][899]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9767.562500, Update Interval: 359.419525
+[2025.12.18-10.13.43:103][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.12.18-10.13.44:836][902]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.18-10.13.45:007][902]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.13.45:007][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.13.45:015][902]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.13.45:015][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.13.45:074][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.18-10.13.45:074][902]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.13.45:074][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.13.45:233][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.18-10.13.45:233][902]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.13.45:233][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.13.45:369][902]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.18-10.13.45:369][902]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.13.45:369][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.13.45:405][902]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/WBP_PlayerInfo.WBP_PlayerInfo
+	Asset Type: WidgetBlueprint
+[2025.12.18-10.13.45:932][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.12.18-10.13.45:973][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.12.18-10.13.46:000][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.12.18-10.13.46:033][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.12.18-10.14.35:870][369]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.12.18-10.14.35:870][369]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2025.12.18-10.18.22:775][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.12.18-10.19.00:835][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.12.18-10.19.02:141][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.12.18-10.20.02:842][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.18-10.20.02:849][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.20.02:975][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.12.18-10.20.02:983][623]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/3/AG/H2T7GMZJ61B3XFX7X0AJCQ
+[2025.12.18-10.20.02:983][623]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/H2T7GMZJ61B3XFX7X0AJCQE77C79EA4DE1D63FE4B25888141BB91C.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/3/AG/H2T7GMZJ61B3XFX7X0AJCQ.uasset'
+[2025.12.18-10.20.02:983][623]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.18-10.20.03:038][623]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.18-10.20.03:038][623]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.18-10.20.03:053][623]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.12.18-10.20.03:053][623]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonCharacter1C15669848B84F4DB046869DFE1E9454.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.12.18-10.20.03:054][623]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WBP_HP] ([2] browsable assets)...
+[2025.12.18-10.20.03:057][623]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WBP_HP.WBP_HP]
+[2025.12.18-10.20.03:057][623]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WBP_HP]
+[2025.12.18-10.20.03:057][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HP" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WBP_HP.uasset" SILENT=true
+[2025.12.18-10.20.03:063][623]LogSavePackage: Moving output files for package: /Game/UI/WBP_HP
+[2025.12.18-10.20.03:063][623]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/WBP_HPEB56E9BC478A8AE302E6FAB6B718FD89.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WBP_HP.uasset'
+[2025.12.18-10.20.03:073][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 223.640 ms (total: 5.64 sec)
+[2025.12.18-10.20.03:121][623]LogContentValidation: Display: Starting to validate 3 assets
+[2025.12.18-10.20.03:121][623]LogContentValidation: Enabled validators:
+[2025.12.18-10.20.03:121][623]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-10.20.03:121][623]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-10.20.03:121][623]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-10.20.03:121][623]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-10.20.03:121][623]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-10.20.03:121][623]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-10.20.03:121][623]AssetCheck: /Game/Level/Lvl_ThirdPerson Validating asset
+[2025.12.18-10.20.03:121][623]AssetCheck: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.12.18-10.20.03:122][623]AssetCheck: /Game/UI/WBP_HP Validating asset
+[2025.12.18-10.20.22:337][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10167.399414
+[2025.12.18-10.20.22:475][888]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.20.22:475][888]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10167.531250, Update Interval: 300.466919
+[2025.12.18-10.23.10:718][397]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/UMG/Public/Components/ProgressBar.h 
+[2025.12.18-10.23.10:874][397]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/UMG/Public/Components/ProgressBar.h : 42
+[2025.12.18-10.23.10:874][397]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:882][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:883][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:884][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:885][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:888][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:888][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:890][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:890][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:906][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:912][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:912][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:925][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:930][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:946][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:956][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:956][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:956][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:958][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:974][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:974][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.10:976][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:022][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:023][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:030][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:031][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:032][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:033][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:035][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:035][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:036][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:036][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:050][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:053][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:053][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:060][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:061][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:066][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:070][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:070][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:070][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:070][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:079][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:079][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:080][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:106][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.11:106][397]LogVSAccessor: Warning: Couldn't access module table
+[2025.12.18-10.23.27:899][114]LogSlate: Window 'Color Picker' being destroyed
+[2025.12.18-10.23.31:528][264]LogSlate: Window 'Color Picker' being destroyed
+[2025.12.18-10.23.36:563][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.12.18-10.24.14:854][805]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.18-10.24.14:861][805]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.18-10.24.14:861][805]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.18-10.24.14:862][805]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 666 us (total: 48.440 ms)
+[2025.12.18-10.24.14:865][805]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.12.18-10.24.14:872][805]LogBlueprint: Error: [AssetLog] D:\JV2ALEXISD\GitHub\DUFRESNE_PLAT_JV2\DUF_Ale_Plat 5.6\Content\LevelPrototyping\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a WBP_HP_C, therefore ' Target ' must have a connection.
+[2025.12.18-10.24.14:958][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.12.18-10.24.14:964][805]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2025.12.18-10.24.14:964][805]BlueprintLog: Warning: Blueprint failed to compile:  BP_ThirdPersonCharacter
+[2025.12.18-10.24.30:328][805]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.12.18-10.24.33:514][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.12.18-10.24.33:519][132]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Lvl_ThirdPerson' took 0.030
+[2025.12.18-10.24.33:519][132]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.18-10.24.33:580][132]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.18-10.24.33:580][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.18-10.24.33:596][132]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto5
+[2025.12.18-10.24.33:597][132]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonCharacter_Auto59203B8EB4DF49330A64B3AB7AF1DD2AF.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Autosaves/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto5.uasset'
+[2025.12.18-10.24.33:867][161]LogSlate: Window 'Message Log' being destroyed
+[2025.12.18-10.24.33:874][161]LogSlate: Window 'Message Log' being destroyed
+[2025.12.18-10.24.42:967][156]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.18-10.24.42:975][156]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.18-10.24.42:975][156]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.18-10.24.42:975][156]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 628 us (total: 49.069 ms)
+[2025.12.18-10.24.42:979][156]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.12.18-10.24.43:076][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.12.18-10.24.43:083][156]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2025.12.18-10.24.43:083][156]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.24.43:089][156]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.18-10.24.43:090][156]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.089 ms (total: 63.304 ms)
+[2025.12.18-10.24.43:090][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006921s)
+[2025.12.18-10.24.43:090][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006956s)
+[2025.12.18-10.24.43:119][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.12.18-10.24.43:122][156]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.18-10.24.43:124][156]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.18-10.24.43:124][156]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.18-10.24.43:124][156]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.18-10.24.43:124][156]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.18-10.24.43:125][156]LogWorldPartition: Display: WorldPartition initialize took 1.599 ms (total: 497.712 ms)
+[2025.12.18-10.24.43:126][156]LogPlayLevel: PIE: World Init took: (0.003521s)
+[2025.12.18-10.24.43:126][156]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.18-10.24.43:126][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.18-10.24.43:126][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.18-10.24.43:126][156]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.18-10.24.43:126][156]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.18-10.24.43:126][156]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.18-10.24.43:129][156]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.18-10.24.43:140][156]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.18-10.24.43:140][156]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.18-10.24.43:140][156]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.18-10.24.43:140][156]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.18-10.24.43:141][156]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2025.12.18-10.24.43:141][156]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2025.12.18-10.24.43:143][156]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2025.12.18-10.24.43:143][156]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2025.12.18-10.24.43:143][156]LogInit: FAudioDevice initialized with ID 59.
+[2025.12.18-10.24.43:143][156]LogAudio: Display: Audio Device (ID: 59) registered with world 'Lvl_ThirdPerson'.
+[2025.12.18-10.24.43:143][156]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2025.12.18-10.24.43:203][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.24.43:203][156]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.18-10.24.43:204][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:204][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:204][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:204][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:205][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:205][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:205][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:205][156]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.24.43:206][156]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.18-11.24.43
+[2025.12.18-10.24.43:206][156]LogWorld: Bringing up level for play took: 0.002348
+[2025.12.18-10.24.43:208][156]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2025.12.18-10.24.43:217][156]PIE: Server logged in
+[2025.12.18-10.24.43:218][156]PIE: Play in editor total start time 0,243 seconds.
+[2025.12.18-10.24.43:355][157]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.18-10.24.56:649][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.24.56:649][194]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.24.56:650][194]LogSlate: Window 'DUF_Ale_Plat Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.18-10.24.56:654][194]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.24.56:655][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.24.56:655][194]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.18-10.24.56:656][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.18-10.24.56:664][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.24.56:692][194]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2025.12.18-10.24.56:692][194]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=4
+[2025.12.18-10.24.56:694][194]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=2
+[2025.12.18-10.24.56:702][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.12.18-10.24.56:740][195]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2025.12.18-10.25.14:965][ 92]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Traps/BP_PiegesPiques.BP_PiegesPiques
+[2025.12.18-10.25.14:965][ 92]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_51
+[2025.12.18-10.26.01:865][505]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10507.159180
+[2025.12.18-10.26.02:025][524]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.26.02:025][524]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10507.308594, Update Interval: 353.050934
+[2025.12.18-10.26.50:710][732]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.18-10.26.50:718][732]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.18-10.26.50:718][732]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.18-10.26.50:718][732]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 575 us (total: 49.645 ms)
+[2025.12.18-10.26.50:725][732]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2025.12.18-10.26.50:807][732]LogPlayLevel: [PlayLevel] Compiling BP_PiegesPiques before play...
+[2025.12.18-10.26.50:881][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.12.18-10.26.50:885][732]LogPlayLevel: PlayLevel: Blueprint regeneration took 166 ms (2 blueprints)
+[2025.12.18-10.26.50:886][732]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.26.50:891][732]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.18-10.26.50:892][732]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.083 ms (total: 64.388 ms)
+[2025.12.18-10.26.50:892][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006625s)
+[2025.12.18-10.26.50:892][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006658s)
+[2025.12.18-10.26.50:919][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.12.18-10.26.50:923][732]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.18-10.26.50:925][732]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.18-10.26.50:925][732]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.18-10.26.50:925][732]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.18-10.26.50:925][732]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.18-10.26.50:927][732]LogWorldPartition: Display: WorldPartition initialize took 2.277 ms (total: 499.989 ms)
+[2025.12.18-10.26.50:927][732]LogPlayLevel: PIE: World Init took: (0.004567s)
+[2025.12.18-10.26.50:929][732]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.18-10.26.50:929][732]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.18-10.26.50:929][732]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.18-10.26.50:929][732]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.18-10.26.50:929][732]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.18-10.26.50:929][732]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.18-10.26.50:931][732]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.18-10.26.50:941][732]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.18-10.26.50:941][732]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.18-10.26.50:941][732]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.18-10.26.50:941][732]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.18-10.26.50:942][732]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2025.12.18-10.26.50:942][732]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2025.12.18-10.26.50:944][732]LogInit: FAudioDevice initialized with ID 60.
+[2025.12.18-10.26.50:944][732]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2025.12.18-10.26.50:944][732]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2025.12.18-10.26.50:944][732]LogAudio: Display: Audio Device (ID: 60) registered with world 'Lvl_ThirdPerson'.
+[2025.12.18-10.26.50:944][732]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2025.12.18-10.26.50:999][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.26.50:999][732]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.18-10.26.51:000][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:000][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:000][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:001][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:001][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:001][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:001][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:001][732]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.26.51:002][732]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.18-11.26.51
+[2025.12.18-10.26.51:003][732]LogWorld: Bringing up level for play took: 0.002927
+[2025.12.18-10.26.51:005][732]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2025.12.18-10.26.51:011][732]PIE: Server logged in
+[2025.12.18-10.26.51:012][732]PIE: Play in editor total start time 0,294 seconds.
+[2025.12.18-10.26.51:098][733]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.18-10.27.08:568][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.27.08:568][233]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.27.08:569][233]LogSlate: Window 'DUF_Ale_Plat Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.18-10.27.08:573][233]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.27.08:574][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.27.08:574][233]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.18-10.27.08:579][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.18-10.27.08:584][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.27.08:614][233]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2025.12.18-10.27.08:614][233]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60, StreamState=4
+[2025.12.18-10.27.08:616][233]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60, StreamState=2
+[2025.12.18-10.27.08:623][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.12.18-10.27.08:686][234]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2025.12.18-10.28.32:402][791]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.18-10.28.32:409][791]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.18-10.28.32:410][791]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.18-10.28.32:410][791]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 671 us (total: 50.316 ms)
+[2025.12.18-10.28.32:410][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.18-10.28.32:411][791]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.28.32:415][791]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.18-10.28.32:416][791]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.060 ms (total: 65.449 ms)
+[2025.12.18-10.28.32:416][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006669s)
+[2025.12.18-10.28.32:416][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006702s)
+[2025.12.18-10.28.32:443][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.12.18-10.28.32:447][791]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.18-10.28.32:449][791]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.18-10.28.32:449][791]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.18-10.28.32:449][791]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.18-10.28.32:449][791]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.18-10.28.32:451][791]LogWorldPartition: Display: WorldPartition initialize took 1.434 ms (total: 501.424 ms)
+[2025.12.18-10.28.32:451][791]LogPlayLevel: PIE: World Init took: (0.003270s)
+[2025.12.18-10.28.32:451][791]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2025.12.18-10.28.32:451][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.18-10.28.32:451][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.18-10.28.32:451][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.18-10.28.32:451][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.18-10.28.32:452][791]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.18-10.28.32:452][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.18-10.28.32:452][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.18-10.28.32:452][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.18-10.28.32:452][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.18-10.28.32:452][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.18-10.28.32:452][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.18-10.28.32:454][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.18-10.28.32:465][791]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.18-10.28.32:465][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.18-10.28.32:465][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.18-10.28.32:465][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.18-10.28.32:466][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2025.12.18-10.28.32:466][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2025.12.18-10.28.32:468][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2025.12.18-10.28.32:468][791]LogInit: FAudioDevice initialized with ID 61.
+[2025.12.18-10.28.32:468][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2025.12.18-10.28.32:468][791]LogAudio: Display: Audio Device (ID: 61) registered with world 'Lvl_ThirdPerson'.
+[2025.12.18-10.28.32:468][791]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2025.12.18-10.28.32:498][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.28.32:498][791]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:499][791]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.28.32:501][791]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.18-11.28.32
+[2025.12.18-10.28.32:501][791]LogWorld: Bringing up level for play took: 0.002533
+[2025.12.18-10.28.32:504][791]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2025.12.18-10.28.32:511][791]PIE: Server logged in
+[2025.12.18-10.28.32:513][791]PIE: Play in editor total start time 0,104 seconds.
+[2025.12.18-10.28.32:586][792]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.18-10.28.52:568][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.28.52:568][461]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.28.52:568][461]LogSlate: Window 'DUF_Ale_Plat Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.18-10.28.52:571][461]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.28.52:572][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.28.52:572][461]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.18-10.28.52:577][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.18-10.28.52:583][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.28.52:625][461]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2025.12.18-10.28.52:625][461]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61, StreamState=4
+[2025.12.18-10.28.52:629][461]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61, StreamState=2
+[2025.12.18-10.28.52:639][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.18-10.28.52:701][462]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2025.12.18-10.29.07:146][ 15]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Collectable/BP_Collectable.BP_Collectable
+[2025.12.18-10.29.07:147][ 15]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_52
+[2025.12.18-10.32.37:733][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10903.434570
+[2025.12.18-10.32.37:877][897]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.18-10.32.37:877][897]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10903.570312, Update Interval: 319.290741
+[2025.12.18-10.32.44:350][616]LogDerivedDataCache: C:/Users/game/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.18-10.33.18:678][493]LogBlueprint: Error: [AssetLog] D:\JV2ALEXISD\GitHub\DUFRESNE_PLAT_JV2\DUF_Ale_Plat 5.6\Content\Blueprint\Collectable\BP_Collectable.uasset: [Compiler] This blueprint (self) is not a WBP_HP_C, therefore ' Target ' must have a connection.
+[2025.12.18-10.33.18:747][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.12.18-10.33.25:594][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.18-10.33.26:710][350]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.33.26:750][350]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Collectable/BP_Collectable] ([2] browsable assets)...
+[2025.12.18-10.33.26:815][350]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Collectable/BP_Collectable.BP_Collectable]
+[2025.12.18-10.33.26:815][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Collectable/BP_Collectable]
+[2025.12.18-10.33.26:815][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Collectable/BP_Collectable" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Collectable/BP_Collectable.uasset" SILENT=true
+[2025.12.18-10.33.26:823][350]LogSavePackage: Moving output files for package: /Game/Blueprint/Collectable/BP_Collectable
+[2025.12.18-10.33.26:823][350]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Collectable276ADB264746EDE941423AABF107CDE8.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Collectable/BP_Collectable.uasset'
+[2025.12.18-10.33.26:832][350]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.785 ms (total: 5.76 sec)
+[2025.12.18-10.33.26:884][350]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.18-10.33.26:884][350]LogContentValidation: Enabled validators:
+[2025.12.18-10.33.26:884][350]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-10.33.26:884][350]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-10.33.26:884][350]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-10.33.26:884][350]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-10.33.26:884][350]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-10.33.26:884][350]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-10.33.26:884][350]AssetCheck: /Game/Blueprint/Collectable/BP_Collectable Validating asset
+[2025.12.18-10.33.35:144][300]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.18-10.33.35:153][300]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.18-10.33.35:153][300]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.18-10.33.35:154][300]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 695 us (total: 51.011 ms)
+[2025.12.18-10.33.35:154][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.18-10.33.35:154][300]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.33.35:160][300]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.18-10.33.35:161][300]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.075 ms (total: 66.524 ms)
+[2025.12.18-10.33.35:161][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006842s)
+[2025.12.18-10.33.35:161][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006882s)
+[2025.12.18-10.33.35:186][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.12.18-10.33.35:191][300]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.18-10.33.35:193][300]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.18-10.33.35:193][300]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.18-10.33.35:193][300]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.18-10.33.35:193][300]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.18-10.33.35:194][300]LogWorldPartition: Display: WorldPartition initialize took 1.430 ms (total: 502.854 ms)
+[2025.12.18-10.33.35:194][300]LogPlayLevel: PIE: World Init took: (0.003293s)
+[2025.12.18-10.33.35:195][300]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.18-10.33.35:195][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.18-10.33.35:195][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.18-10.33.35:195][300]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.18-10.33.35:195][300]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.18-10.33.35:195][300]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.18-10.33.35:198][300]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.18-10.33.35:209][300]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.18-10.33.35:209][300]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.18-10.33.35:209][300]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.18-10.33.35:209][300]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.18-10.33.35:210][300]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2025.12.18-10.33.35:210][300]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2025.12.18-10.33.35:212][300]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2025.12.18-10.33.35:212][300]LogInit: FAudioDevice initialized with ID 62.
+[2025.12.18-10.33.35:212][300]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2025.12.18-10.33.35:212][300]LogAudio: Display: Audio Device (ID: 62) registered with world 'Lvl_ThirdPerson'.
+[2025.12.18-10.33.35:212][300]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2025.12.18-10.33.35:247][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.33.35:248][300]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.18-10.33.35:248][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:248][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:249][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:249][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:249][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:249][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:249][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:249][300]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.33.35:250][300]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.18-11.33.35
+[2025.12.18-10.33.35:251][300]LogWorld: Bringing up level for play took: 0.002631
+[2025.12.18-10.33.35:254][300]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2025.12.18-10.33.35:261][300]PIE: Server logged in
+[2025.12.18-10.33.35:263][300]PIE: Play in editor total start time 0,109 seconds.
+[2025.12.18-10.33.35:341][301]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.18-10.34.04:205][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.34.04:205][663]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.34.04:206][663]LogSlate: Window 'DUF_Ale_Plat Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.18-10.34.04:209][663]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.34.04:210][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.34.04:210][663]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.18-10.34.04:216][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.18-10.34.04:221][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.34.04:264][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.18-10.34.04:265][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2025.12.18-10.34.04:265][663]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62, StreamState=4
+[2025.12.18-10.34.04:267][663]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62, StreamState=2
+[2025.12.18-10.34.04:274][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.12.18-10.34.04:314][664]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2025.12.18-10.34.21:494][703]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.18-10.34.21:502][703]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.18-10.34.21:502][703]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.18-10.34.21:502][703]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 583 us (total: 51.595 ms)
+[2025.12.18-10.34.21:503][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.18-10.34.21:503][703]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.34.21:509][703]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.18-10.34.21:510][703]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.067 ms (total: 67.592 ms)
+[2025.12.18-10.34.21:510][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006715s)
+[2025.12.18-10.34.21:510][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.006748s)
+[2025.12.18-10.34.21:534][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.18-10.34.21:538][703]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.18-10.34.21:539][703]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.18-10.34.21:539][703]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.18-10.34.21:539][703]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.18-10.34.21:539][703]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.18-10.34.21:541][703]LogWorldPartition: Display: WorldPartition initialize took 1.467 ms (total: 504.322 ms)
+[2025.12.18-10.34.21:541][703]LogPlayLevel: PIE: World Init took: (0.003182s)
+[2025.12.18-10.34.21:542][703]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.18-10.34.21:542][703]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.18-10.34.21:542][703]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.18-10.34.21:542][703]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.18-10.34.21:542][703]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.18-10.34.21:542][703]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.18-10.34.21:544][703]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.18-10.34.21:554][703]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.18-10.34.21:554][703]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.18-10.34.21:554][703]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.18-10.34.21:554][703]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.18-10.34.21:555][703]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2025.12.18-10.34.21:555][703]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2025.12.18-10.34.21:557][703]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2025.12.18-10.34.21:557][703]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2025.12.18-10.34.21:557][703]LogInit: FAudioDevice initialized with ID 63.
+[2025.12.18-10.34.21:557][703]LogAudio: Display: Audio Device (ID: 63) registered with world 'Lvl_ThirdPerson'.
+[2025.12.18-10.34.21:557][703]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2025.12.18-10.34.21:595][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.34.21:595][703]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:596][703]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.18-10.34.21:597][703]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.18-11.34.21
+[2025.12.18-10.34.21:598][703]LogWorld: Bringing up level for play took: 0.002296
+[2025.12.18-10.34.21:601][703]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2025.12.18-10.34.21:608][703]PIE: Server logged in
+[2025.12.18-10.34.21:609][703]PIE: Play in editor total start time 0,107 seconds.
+[2025.12.18-10.34.21:681][704]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.18-10.34.26:765][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.18-10.34.26:765][116]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.18-10.34.26:765][116]LogSlate: Window 'DUF_Ale_Plat Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.12.18-10.34.26:769][116]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.18-10.34.26:770][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.34.26:770][116]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.18-10.34.26:773][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.18-10.34.26:780][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.18-10.34.26:807][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2025.12.18-10.34.26:807][116]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63, StreamState=4
+[2025.12.18-10.34.26:810][116]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63, StreamState=2
+[2025.12.18-10.34.26:818][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.12.18-10.34.26:858][117]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2025.12.18-10.34.34:142][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.12.18-10.34.34:148][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.34.34:252][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.12.18-10.34.34:256][973]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.18-10.34.34:335][973]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.18-10.34.34:335][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.18-10.34.34:351][973]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.12.18-10.34.34:352][973]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonCharacterDB72B280415CFDE59AE8DA8D78AC311E.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.12.18-10.34.34:352][973]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/WBP_HP] ([2] browsable assets)...
+[2025.12.18-10.34.34:356][973]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/WBP_HP.WBP_HP]
+[2025.12.18-10.34.34:356][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WBP_HP]
+[2025.12.18-10.34.34:356][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HP" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WBP_HP.uasset" SILENT=true
+[2025.12.18-10.34.34:364][973]LogSavePackage: Moving output files for package: /Game/UI/WBP_HP
+[2025.12.18-10.34.34:364][973]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/WBP_HP960C352F4CDE7DB67302D3BB44A5956D.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/UI/WBP_HP.uasset'
+[2025.12.18-10.34.34:364][973]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Traps/BP_PiegesPiques] ([2] browsable assets)...
+[2025.12.18-10.34.34:379][973]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Traps/BP_PiegesPiques.BP_PiegesPiques]
+[2025.12.18-10.34.34:379][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Traps/BP_PiegesPiques]
+[2025.12.18-10.34.34:379][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Traps/BP_PiegesPiques" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques.uasset" SILENT=true
+[2025.12.18-10.34.34:390][973]LogSavePackage: Moving output files for package: /Game/Blueprint/Traps/BP_PiegesPiques
+[2025.12.18-10.34.34:390][973]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_PiegesPiques646BAD62446AF749D7B2A497A578A104.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques.uasset'
+[2025.12.18-10.34.34:390][973]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/Collectable/BP_Collectable] ([2] browsable assets)...
+[2025.12.18-10.34.34:390][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Collectable/BP_Collectable]
+[2025.12.18-10.34.34:390][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Collectable/BP_Collectable" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Collectable/BP_Collectable.uasset" SILENT=true
+[2025.12.18-10.34.34:397][973]LogSavePackage: Moving output files for package: /Game/Blueprint/Collectable/BP_Collectable
+[2025.12.18-10.34.34:397][973]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_CollectableCCDF057B4B9ABA28A5048094BF8311B6.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Collectable/BP_Collectable.uasset'
+[2025.12.18-10.34.34:406][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 258.124 ms (total: 6.02 sec)
+[2025.12.18-10.34.34:449][973]LogContentValidation: Display: Starting to validate 4 assets
+[2025.12.18-10.34.34:449][973]LogContentValidation: Enabled validators:
+[2025.12.18-10.34.34:449][973]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.18-10.34.34:449][973]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.18-10.34.34:449][973]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.18-10.34.34:449][973]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.18-10.34.34:449][973]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.18-10.34.34:449][973]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.18-10.34.34:449][973]AssetCheck: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.12.18-10.34.34:449][973]AssetCheck: /Game/UI/WBP_HP Validating asset
+[2025.12.18-10.34.34:449][973]AssetCheck: /Game/Blueprint/Traps/BP_PiegesPiques Validating asset
+[2025.12.18-10.34.34:449][973]AssetCheck: /Game/Blueprint/Collectable/BP_Collectable Validating asset
+[2025.12.18-10.34.36:598][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.12.18-10.34.39:176][224]LogSlate: Window 'Save Content' being destroyed
+[2025.12.18-10.34.39:182][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.34.39:300][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.12.18-10.34.39:313][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.356 ms (total: 6.15 sec)
+[2025.12.18-10.34.40:982][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.12.18-10.34.42:339][416]LogSlate: Window 'Save Content' being destroyed
+[2025.12.18-10.34.42:347][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.34.42:467][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.12.18-10.34.42:480][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.236 ms (total: 6.28 sec)
+[2025.12.18-10.34.50:549][201]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/Traps/BP_BlocPiege_Parent.BP_BlocPiege_Parent
+[2025.12.18-10.34.50:550][201]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_54
+[2025.12.18-10.34.54:309][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.12.18-10.34.54:315][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.18-10.34.54:420][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.12.18-10.34.54:434][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.558 ms (total: 6.40 sec)
