@@ -10621,3 +10621,1272 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.19-12.47.57:529][226]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
 		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
 		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.49.58:788][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.49.58:788][227]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.49.58:788][227]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.49.58:789][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.49.58:789][227]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.49.58:791][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.49.58:796][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.49.58:820][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.49.58:821][227]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 103
+[2025.12.19-12.49.58:821][227]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=103, StreamState=4
+[2025.12.19-12.49.58:823][227]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=103, StreamState=2
+[2025.12.19-12.49.58:829][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.12.19-12.49.58:891][228]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2025.12.19-12.50.07:947][117]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.50.07:947][117]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.50.07:948][117]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 782 us (total: 96.871 ms)
+[2025.12.19-12.50.07:948][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.50.07:968][117]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.50.07:975][117]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.50.07:976][117]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.271 ms (total: 117.998 ms)
+[2025.12.19-12.50.07:976][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007879s)
+[2025.12.19-12.50.07:976][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.007914s)
+[2025.12.19-12.50.07:998][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.12.19-12.50.07:999][117]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.50.08:001][117]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.50.08:001][117]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.50.08:001][117]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.50.08:001][117]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.50.08:003][117]LogWorldPartition: Display: WorldPartition initialize took 1.619 ms (total: 495.502 ms)
+[2025.12.19-12.50.08:003][117]LogPlayLevel: PIE: World Init took: (0.003339s)
+[2025.12.19-12.50.08:003][117]LogAudio: Display: Creating Audio Device:                 Id: 104, Scope: Unique, Realtime: True
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.50.08:003][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.50.08:003][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.50.08:003][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.50.08:003][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.50.08:003][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.50.08:006][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.50.08:015][117]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.50.08:015][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.50.08:015][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.50.08:015][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.50.08:015][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=104
+[2025.12.19-12.50.08:015][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=104
+[2025.12.19-12.50.08:018][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=104
+[2025.12.19-12.50.08:018][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=104
+[2025.12.19-12.50.08:018][117]LogInit: FAudioDevice initialized with ID 104.
+[2025.12.19-12.50.08:018][117]LogAudio: Display: Audio Device (ID: 104) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.50.08:018][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 104
+[2025.12.19-12.50.08:021][117]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBC0AC02_1083322939.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:023][117]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.08:024][117]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.50.08
+[2025.12.19-12.50.08:024][117]LogWorld: Bringing up level for play took: 0.002297
+[2025.12.19-12.50.08:026][117]LogOnline: OSS: Created online subsystem instance for: :Context_132
+[2025.12.19-12.50.08:031][117]PIE: Server logged in
+[2025.12.19-12.50.08:033][117]PIE: Play in editor total start time 0,087 seconds.
+[2025.12.19-12.50.08:080][118]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.50.19:049][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.50.19:049][345]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.50.19:049][345]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.50.19:050][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.50.19:050][345]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.50.19:051][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.50.19:055][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.50.19:083][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.50.19:083][345]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 104
+[2025.12.19-12.50.19:083][345]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=104, StreamState=4
+[2025.12.19-12.50.19:085][345]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=104, StreamState=2
+[2025.12.19-12.50.19:091][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.12.19-12.50.19:152][346]LogPlayLevel: Display: Destroying online subsystem :Context_132
+[2025.12.19-12.50.31:461][607]LogPhysics: Warning: Scale for /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.31:627][625]LogPhysics: Warning: Scale for /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.32:023][668]LogPhysics: Warning: Scale for /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:139][ 67]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.50.36:139][ 67]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.50.36:139][ 67]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 732 us (total: 97.603 ms)
+[2025.12.19-12.50.36:139][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.50.36:167][ 67]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.50.36:174][ 67]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.50.36:175][ 67]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.270 ms (total: 119.269 ms)
+[2025.12.19-12.50.36:175][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007473s)
+[2025.12.19-12.50.36:175][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.007505s)
+[2025.12.19-12.50.36:195][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.12.19-12.50.36:197][ 67]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.50.36:199][ 67]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.50.36:199][ 67]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.50.36:199][ 67]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.50.36:199][ 67]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.50.36:200][ 67]LogWorldPartition: Display: WorldPartition initialize took 1.610 ms (total: 497.112 ms)
+[2025.12.19-12.50.36:200][ 67]LogPlayLevel: PIE: World Init took: (0.003201s)
+[2025.12.19-12.50.36:201][ 67]LogAudio: Display: Creating Audio Device:                 Id: 105, Scope: Unique, Realtime: True
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.50.36:201][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.50.36:201][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.50.36:201][ 67]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.50.36:201][ 67]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.50.36:201][ 67]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.50.36:203][ 67]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.50.36:212][ 67]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.50.36:213][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.50.36:213][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.50.36:213][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.50.36:213][ 67]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=105
+[2025.12.19-12.50.36:213][ 67]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=105
+[2025.12.19-12.50.36:215][ 67]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=105
+[2025.12.19-12.50.36:215][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=105
+[2025.12.19-12.50.36:215][ 67]LogInit: FAudioDevice initialized with ID 105.
+[2025.12.19-12.50.36:215][ 67]LogAudio: Display: Audio Device (ID: 105) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.50.36:215][ 67]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 105
+[2025.12.19-12.50.36:219][ 67]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBC0AC02_1083322939.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:220][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:221][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:221][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:221][ 67]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.50.36:221][ 67]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.50.36
+[2025.12.19-12.50.36:221][ 67]LogWorld: Bringing up level for play took: 0.002201
+[2025.12.19-12.50.36:223][ 67]LogOnline: OSS: Created online subsystem instance for: :Context_133
+[2025.12.19-12.50.36:228][ 67]PIE: Server logged in
+[2025.12.19-12.50.36:230][ 67]PIE: Play in editor total start time 0,091 seconds.
+[2025.12.19-12.50.36:277][ 68]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.50.48:368][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.50.48:368][409]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.50.48:368][409]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.50.48:369][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.50.48:369][409]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.50.48:370][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.50.48:374][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.50.48:399][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.50.48:400][409]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 105
+[2025.12.19-12.50.48:400][409]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=105, StreamState=4
+[2025.12.19-12.50.48:402][409]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=105, StreamState=2
+[2025.12.19-12.50.48:408][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.12.19-12.50.48:468][410]LogPlayLevel: Display: Destroying online subsystem :Context_133
+[2025.12.19-12.50.54:933][ 39]Cmd: TRANSACTION UNDO
+[2025.12.19-12.50.54:933][ 39]LogEditorTransaction: Undo Move Elements
+[2025.12.19-12.51.03:856][864]LogPhysics: Warning: Scale for /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.04:162][897]LogPhysics: Warning: Scale for /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:701][332]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.51.08:701][332]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.51.08:702][332]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 839 us (total: 98.443 ms)
+[2025.12.19-12.51.08:702][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.51.08:702][332]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.51.08:709][332]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.51.08:710][332]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.387 ms (total: 120.657 ms)
+[2025.12.19-12.51.08:710][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008261s)
+[2025.12.19-12.51.08:710][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008287s)
+[2025.12.19-12.51.08:732][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.12.19-12.51.08:735][332]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.51.08:737][332]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.51.08:737][332]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.51.08:737][332]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.51.08:737][332]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.51.08:739][332]LogWorldPartition: Display: WorldPartition initialize took 1.787 ms (total: 498.900 ms)
+[2025.12.19-12.51.08:739][332]LogPlayLevel: PIE: World Init took: (0.003464s)
+[2025.12.19-12.51.08:740][332]LogAudio: Display: Creating Audio Device:                 Id: 106, Scope: Unique, Realtime: True
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.51.08:740][332]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.51.08:740][332]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.51.08:740][332]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.51.08:740][332]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.51.08:740][332]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.51.08:742][332]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.51.08:752][332]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.51.08:752][332]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.51.08:752][332]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.51.08:752][332]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.51.08:753][332]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=106
+[2025.12.19-12.51.08:753][332]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=106
+[2025.12.19-12.51.08:755][332]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=106
+[2025.12.19-12.51.08:755][332]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=106
+[2025.12.19-12.51.08:755][332]LogInit: FAudioDevice initialized with ID 106.
+[2025.12.19-12.51.08:755][332]LogAudio: Display: Audio Device (ID: 106) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.51.08:755][332]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 106
+[2025.12.19-12.51.08:758][332]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBC0AC02_1083322939.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:760][332]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.08:761][332]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.51.08
+[2025.12.19-12.51.08:761][332]LogWorld: Bringing up level for play took: 0.002264
+[2025.12.19-12.51.08:763][332]LogOnline: OSS: Created online subsystem instance for: :Context_134
+[2025.12.19-12.51.08:768][332]PIE: Server logged in
+[2025.12.19-12.51.08:769][332]PIE: Play in editor total start time 0,07 seconds.
+[2025.12.19-12.51.08:817][333]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.51.17:223][274]LogDerivedDataCache: C:/Users/game/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.19-12.51.25:028][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.51.25:028][122]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.51.25:028][122]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.51.25:029][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.51.25:029][122]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.51.25:030][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.51.25:035][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.51.25:066][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.51.25:066][122]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 106
+[2025.12.19-12.51.25:067][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106, StreamState=4
+[2025.12.19-12.51.25:068][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106, StreamState=2
+[2025.12.19-12.51.25:075][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.19-12.51.25:135][123]LogPlayLevel: Display: Destroying online subsystem :Context_134
+[2025.12.19-12.51.27:624][350]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.19-12.51.27:633][350]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.51.27:633][350]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.51.27:634][350]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 923 us (total: 99.367 ms)
+[2025.12.19-12.51.27:634][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.51.27:667][350]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.51.27:673][350]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.51.27:674][350]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.274 ms (total: 121.931 ms)
+[2025.12.19-12.51.27:674][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007561s)
+[2025.12.19-12.51.27:674][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.007599s)
+[2025.12.19-12.51.27:700][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.12.19-12.51.27:701][350]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.51.27:703][350]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.51.27:703][350]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.51.27:703][350]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.51.27:703][350]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.51.27:705][350]LogWorldPartition: Display: WorldPartition initialize took 1.627 ms (total: 500.527 ms)
+[2025.12.19-12.51.27:705][350]LogPlayLevel: PIE: World Init took: (0.003419s)
+[2025.12.19-12.51.27:706][350]LogAudio: Display: Creating Audio Device:                 Id: 107, Scope: Unique, Realtime: True
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.51.27:706][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.51.27:706][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.51.27:706][350]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.51.27:706][350]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.51.27:706][350]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.51.27:708][350]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.51.27:717][350]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.51.27:717][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.51.27:717][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.51.27:717][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.51.27:718][350]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=107
+[2025.12.19-12.51.27:718][350]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=107
+[2025.12.19-12.51.27:720][350]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=107
+[2025.12.19-12.51.27:720][350]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=107
+[2025.12.19-12.51.27:720][350]LogInit: FAudioDevice initialized with ID 107.
+[2025.12.19-12.51.27:720][350]LogAudio: Display: Audio Device (ID: 107) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.51.27:720][350]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 107
+[2025.12.19-12.51.27:723][350]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBC0AC02_1083322939.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:725][350]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.51.27:726][350]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.51.27
+[2025.12.19-12.51.27:726][350]LogWorld: Bringing up level for play took: 0.002208
+[2025.12.19-12.51.27:728][350]LogOnline: OSS: Created online subsystem instance for: :Context_135
+[2025.12.19-12.51.27:732][350]PIE: Server logged in
+[2025.12.19-12.51.27:734][350]PIE: Play in editor total start time 0,101 seconds.
+[2025.12.19-12.51.27:779][351]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.52.40:977][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.52.40:977][265]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.52.40:977][265]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.52.40:978][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.52.40:978][265]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.52.40:984][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.52.40:988][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.52.41:011][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.52.41:011][265]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 107
+[2025.12.19-12.52.41:011][265]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107, StreamState=4
+[2025.12.19-12.52.41:013][265]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107, StreamState=2
+[2025.12.19-12.52.41:020][265]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.19-12.52.41:079][266]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2025.12.19-12.53.09:783][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.12.19-12.53.10:202][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-12.53.10:256][257]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Teleport/BP_Checkpoint] ([2] browsable assets)...
+[2025.12.19-12.53.10:267][257]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Teleport/BP_Checkpoint.BP_Checkpoint]
+[2025.12.19-12.53.10:268][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Teleport/BP_Checkpoint]
+[2025.12.19-12.53.10:268][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Teleport/BP_Checkpoint" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Checkpoint.uasset" SILENT=true
+[2025.12.19-12.53.10:274][257]LogSavePackage: Moving output files for package: /Game/Blueprint/Teleport/BP_Checkpoint
+[2025.12.19-12.53.10:274][257]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Checkpoint8B050FD34E391D2DDB8DCBAB4E09316F.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Checkpoint.uasset'
+[2025.12.19-12.53.10:282][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.383 ms (total: 2.05 sec)
+[2025.12.19-12.53.10:315][257]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.19-12.53.10:315][257]LogContentValidation: Enabled validators:
+[2025.12.19-12.53.10:315][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-12.53.10:315][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-12.53.10:315][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-12.53.10:315][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-12.53.10:315][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-12.53.10:315][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-12.53.10:315][257]AssetCheck: /Game/Blueprint/Teleport/BP_Checkpoint Validating asset
+[2025.12.19-12.53.14:446][662]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.53.14:447][662]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.53.14:448][662]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.114 ms (total: 100.482 ms)
+[2025.12.19-12.53.14:448][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.53.14:448][662]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.53.14:455][662]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.53.14:457][662]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.461 ms (total: 123.392 ms)
+[2025.12.19-12.53.14:457][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008769s)
+[2025.12.19-12.53.14:457][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008797s)
+[2025.12.19-12.53.14:483][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.12.19-12.53.14:484][662]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.53.14:486][662]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.53.14:486][662]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.53.14:486][662]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.53.14:486][662]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.53.14:488][662]LogWorldPartition: Display: WorldPartition initialize took 1.874 ms (total: 502.402 ms)
+[2025.12.19-12.53.14:488][662]LogPlayLevel: PIE: World Init took: (0.003730s)
+[2025.12.19-12.53.14:489][662]LogAudio: Display: Creating Audio Device:                 Id: 108, Scope: Unique, Realtime: True
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.53.14:489][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.53.14:489][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.53.14:489][662]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.53.14:489][662]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.53.14:489][662]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.53.14:491][662]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.53.14:502][662]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.53.14:502][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.53.14:502][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.53.14:502][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.53.14:504][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=108
+[2025.12.19-12.53.14:504][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=108
+[2025.12.19-12.53.14:505][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=108
+[2025.12.19-12.53.14:505][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=108
+[2025.12.19-12.53.14:505][662]LogInit: FAudioDevice initialized with ID 108.
+[2025.12.19-12.53.14:505][662]LogAudio: Display: Audio Device (ID: 108) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.53.14:505][662]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 108
+[2025.12.19-12.53.14:509][662]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBC0AC02_1083322939.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:511][662]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.53.14:512][662]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.53.14
+[2025.12.19-12.53.14:512][662]LogWorld: Bringing up level for play took: 0.002472
+[2025.12.19-12.53.14:514][662]LogOnline: OSS: Created online subsystem instance for: :Context_136
+[2025.12.19-12.53.14:519][662]PIE: Server logged in
+[2025.12.19-12.53.14:521][662]PIE: Play in editor total start time 0,075 seconds.
+[2025.12.19-12.53.14:571][663]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.53.46:730][945]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3863.847412
+[2025.12.19-12.53.46:895][961]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.19-12.53.46:895][961]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3864.002686, Update Interval: 337.834412
+[2025.12.19-12.54.44:618][522]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=173.85 Y=-61.31 Z=0.00 Location: X=-983.10 Y=1579.59 Z=159.64 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:3.444 Actor:BP_PiegesPiques_Parent_C_UAID_C01803C181FB15AD02_1797667893 Component:PiegesPiques BoneName:None (0 other events since notify)
+[2025.12.19-12.55.08:145][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.55.08:145][830]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.55.08:145][830]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.55.08:146][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.55.08:146][830]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.55.08:148][830]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.55.08:152][830]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.55.08:173][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.55.08:173][830]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 108
+[2025.12.19-12.55.08:173][830]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108, StreamState=4
+[2025.12.19-12.55.08:175][830]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108, StreamState=2
+[2025.12.19-12.55.08:182][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.12.19-12.55.08:244][831]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2025.12.19-12.55.17:978][733]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.12.19-12.55.21:613][ 57]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.12.19-12.55.24:264][319]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.12.19-12.55.28:847][732]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.12.19-12.55.48:295][577]Cmd: DELETE
+[2025.12.19-12.55.48:296][577]Cmd: ACTOR DELETE
+[2025.12.19-12.55.48:298][577]LogEditorActor: Deleted Actor: BP_Trampoline_C
+[2025.12.19-12.55.48:331][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.12.19-12.55.48:334][577]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2025.12.19-12.55.50:656][792]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.55.50:656][792]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.55.50:657][792]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.065 ms (total: 101.548 ms)
+[2025.12.19-12.55.50:657][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.55.50:657][792]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.55.50:664][792]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.55.50:665][792]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.393 ms (total: 124.785 ms)
+[2025.12.19-12.55.50:665][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008319s)
+[2025.12.19-12.55.50:665][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008350s)
+[2025.12.19-12.55.50:691][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.12.19-12.55.50:692][792]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.55.50:694][792]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.55.50:694][792]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.55.50:694][792]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.55.50:694][792]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.55.50:696][792]LogWorldPartition: Display: WorldPartition initialize took 1.728 ms (total: 504.131 ms)
+[2025.12.19-12.55.50:696][792]LogPlayLevel: PIE: World Init took: (0.003588s)
+[2025.12.19-12.55.50:697][792]LogAudio: Display: Creating Audio Device:                 Id: 109, Scope: Unique, Realtime: True
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.55.50:697][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.55.50:697][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.55.50:697][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.55.50:697][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.55.50:697][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.55.50:699][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.55.50:710][792]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.55.50:710][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.55.50:710][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.55.50:710][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.55.50:711][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=109
+[2025.12.19-12.55.50:711][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=109
+[2025.12.19-12.55.50:713][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=109
+[2025.12.19-12.55.50:713][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=109
+[2025.12.19-12.55.50:713][792]LogInit: FAudioDevice initialized with ID 109.
+[2025.12.19-12.55.50:713][792]LogAudio: Display: Audio Device (ID: 109) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.55.50:714][792]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 109
+[2025.12.19-12.55.50:717][792]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.55.50:718][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:718][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:719][792]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.50:720][792]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.55.50
+[2025.12.19-12.55.50:720][792]LogWorld: Bringing up level for play took: 0.002301
+[2025.12.19-12.55.50:722][792]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2025.12.19-12.55.50:727][792]PIE: Server logged in
+[2025.12.19-12.55.50:729][792]PIE: Play in editor total start time 0,073 seconds.
+[2025.12.19-12.55.50:777][793]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.55.53:125][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.55.53:125][ 13]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.55.53:125][ 13]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.55.53:125][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.55.53:125][ 13]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.55.53:128][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.55.53:132][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.55.53:153][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.55.53:154][ 13]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 109
+[2025.12.19-12.55.53:154][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109, StreamState=4
+[2025.12.19-12.55.53:156][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109, StreamState=2
+[2025.12.19-12.55.53:163][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.12.19-12.55.53:224][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2025.12.19-12.55.59:293][571]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.19-12.55.59:302][571]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.55.59:302][571]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.55.59:303][571]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 1.093 ms (total: 102.642 ms)
+[2025.12.19-12.55.59:305][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.55.59:305][571]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.55.59:312][571]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.55.59:313][571]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.344 ms (total: 126.130 ms)
+[2025.12.19-12.55.59:313][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008228s)
+[2025.12.19-12.55.59:313][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008257s)
+[2025.12.19-12.55.59:336][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.12.19-12.55.59:338][571]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.55.59:340][571]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.55.59:340][571]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.55.59:340][571]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.55.59:340][571]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.55.59:342][571]LogWorldPartition: Display: WorldPartition initialize took 1.722 ms (total: 505.853 ms)
+[2025.12.19-12.55.59:342][571]LogPlayLevel: PIE: World Init took: (0.003368s)
+[2025.12.19-12.55.59:342][571]LogAudio: Display: Creating Audio Device:                 Id: 110, Scope: Unique, Realtime: True
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.55.59:342][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.55.59:342][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.55.59:342][571]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.55.59:342][571]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.55.59:342][571]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.55.59:344][571]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.55.59:353][571]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.55.59:354][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.55.59:354][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.55.59:354][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.55.59:355][571]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=110
+[2025.12.19-12.55.59:355][571]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=110
+[2025.12.19-12.55.59:356][571]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=110
+[2025.12.19-12.55.59:356][571]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=110
+[2025.12.19-12.55.59:356][571]LogInit: FAudioDevice initialized with ID 110.
+[2025.12.19-12.55.59:356][571]LogAudio: Display: Audio Device (ID: 110) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.55.59:356][571]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 110
+[2025.12.19-12.55.59:360][571]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:361][571]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.55.59:362][571]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.55.59
+[2025.12.19-12.55.59:362][571]LogWorld: Bringing up level for play took: 0.002341
+[2025.12.19-12.55.59:364][571]LogOnline: OSS: Created online subsystem instance for: :Context_138
+[2025.12.19-12.55.59:369][571]PIE: Server logged in
+[2025.12.19-12.55.59:371][571]PIE: Play in editor total start time 0,07 seconds.
+[2025.12.19-12.55.59:419][572]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.56.00:724][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.56.00:724][684]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.56.00:724][684]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.56.00:725][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.56.00:725][684]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.56.00:727][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.56.00:731][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.56.00:756][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.56.00:756][684]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 110
+[2025.12.19-12.56.00:756][684]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110, StreamState=4
+[2025.12.19-12.56.00:758][684]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110, StreamState=2
+[2025.12.19-12.56.00:765][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.12.19-12.56.00:808][685]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2025.12.19-12.56.04:637][ 31]LogContentBundle: [Lvl_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-12.56.04:637][ 31]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' started...
+[2025.12.19-12.56.04:638][ 31]LogWorldPartition: Display: GenerateStreaming for 'Lvl_ThirdPerson' took 986 us (total: 103.628 ms)
+[2025.12.19-12.56.04:638][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-12.56.04:638][ 31]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.56.04:645][ 31]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-12.56.04:646][ 31]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.341 ms (total: 127.471 ms)
+[2025.12.19-12.56.04:646][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008057s)
+[2025.12.19-12.56.04:646][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson to /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson (0.008085s)
+[2025.12.19-12.56.04:671][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.12.19-12.56.04:673][ 31]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-12.56.04:674][ 31]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-12.56.04:674][ 31]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-12.56.04:674][ 31]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-12.56.04:674][ 31]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-12.56.04:676][ 31]LogWorldPartition: Display: WorldPartition initialize took 1.807 ms (total: 507.660 ms)
+[2025.12.19-12.56.04:676][ 31]LogPlayLevel: PIE: World Init took: (0.003449s)
+[2025.12.19-12.56.04:677][ 31]LogAudio: Display: Creating Audio Device:                 Id: 111, Scope: Unique, Realtime: True
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-12.56.04:677][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-12.56.04:677][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-12.56.04:677][ 31]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-12.56.04:677][ 31]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-12.56.04:677][ 31]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-12.56.04:679][ 31]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-12.56.04:689][ 31]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-12.56.04:689][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-12.56.04:689][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-12.56.04:689][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-12.56.04:690][ 31]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=111
+[2025.12.19-12.56.04:690][ 31]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=111
+[2025.12.19-12.56.04:692][ 31]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=111
+[2025.12.19-12.56.04:692][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=111
+[2025.12.19-12.56.04:692][ 31]LogInit: FAudioDevice initialized with ID 111.
+[2025.12.19-12.56.04:692][ 31]LogAudio: Display: Audio Device (ID: 111) registered with world 'Lvl_ThirdPerson'.
+[2025.12.19-12.56.04:692][ 31]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 111
+[2025.12.19-12.56.04:696][ 31]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:697][ 31]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-12.56.04:698][ 31]LogWorld: Bringing World /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson up for play (max tick rate 0) at 2025.12.19-13.56.04
+[2025.12.19-12.56.04:698][ 31]LogWorld: Bringing up level for play took: 0.002168
+[2025.12.19-12.56.04:700][ 31]LogOnline: OSS: Created online subsystem instance for: :Context_139
+[2025.12.19-12.56.04:705][ 31]PIE: Server logged in
+[2025.12.19-12.56.04:707][ 31]PIE: Play in editor total start time 0,07 seconds.
+[2025.12.19-12.56.04:752][ 32]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-12.56.36:323][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.56.36:323][ 90]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Lvl_ThirdPerson
+[2025.12.19-12.56.36:323][ 90]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-12.56.36:324][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.56.36:324][ 90]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-12.56.36:327][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-12.56.36:333][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-12.56.36:356][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-12.56.36:356][ 90]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 111
+[2025.12.19-12.56.36:357][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111, StreamState=4
+[2025.12.19-12.56.36:358][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111, StreamState=2
+[2025.12.19-12.56.36:365][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.12.19-12.56.36:426][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2025.12.19-12.56.49:083][312]Cmd: TRANSACTION UNDO
+[2025.12.19-12.56.49:083][312]LogEditorTransaction: Undo Move Elements
+[2025.12.19-12.56.52:355][570]Cmd: EDIT COPY
+[2025.12.19-12.56.52:567][588]Cmd: EDIT PASTE
+[2025.12.19-12.57.03:366][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-12.57.03:457][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.12.19-12.57.03:484][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.12.19-12.57.03:508][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.12.19-12.57.03:513][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/5/39/TFB3DVPNOH8J733RHOOEBA
+[2025.12.19-12.57.03:514][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/TFB3DVPNOH8J733RHOOEBA458DAE0A40530410E84E328B2448966C.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/5/39/TFB3DVPNOH8J733RHOOEBA.uasset'
+[2025.12.19-12.57.03:517][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/3/7K/M4KAARZRN6Q1U7FBO6RJ4Z
+[2025.12.19-12.57.03:517][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/M4KAARZRN6Q1U7FBO6RJ4Z31F5579946DC9BF1B653099B5B1B61DA.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/3/7K/M4KAARZRN6Q1U7FBO6RJ4Z.uasset'
+[2025.12.19-12.57.03:521][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/0/ZT/09V4PMHZM51OFXFSN4YT5K
+[2025.12.19-12.57.03:521][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/09V4PMHZM51OFXFSN4YT5KE4116BAC421D1E786A40FC845143135F.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/0/ZT/09V4PMHZM51OFXFSN4YT5K.uasset'
+[2025.12.19-12.57.03:524][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/0/RN/SSHK7I4GN6R0YYPSS1AO8V
+[2025.12.19-12.57.03:525][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SSHK7I4GN6R0YYPSS1AO8V8AE1B003474FA2495B243BB227F186A4.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/0/RN/SSHK7I4GN6R0YYPSS1AO8V.uasset'
+[2025.12.19-12.57.03:528][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/8/9B/0IO2E7TE2W9XGI5CUIPNJ9
+[2025.12.19-12.57.03:528][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/0IO2E7TE2W9XGI5CUIPNJ98F54DA894811638B7C2D299BAAE015F4.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/8/9B/0IO2E7TE2W9XGI5CUIPNJ9.uasset'
+[2025.12.19-12.57.03:532][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/2/8T/5ORNNOU8N0NIJLNPI518F6
+[2025.12.19-12.57.03:532][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/5ORNNOU8N0NIJLNPI518F68F8C805C447D3AB22ECCAD88186C4AC7.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/2/8T/5ORNNOU8N0NIJLNPI518F6.uasset'
+[2025.12.19-12.57.03:535][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/C/TK/15XUH91ZPCH80M2ACARUZ4
+[2025.12.19-12.57.03:535][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/15XUH91ZPCH80M2ACARUZ44457644E46D73D1C7704F58F306216E9.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/C/TK/15XUH91ZPCH80M2ACARUZ4.uasset'
+[2025.12.19-12.57.03:539][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/D/86/4MYZV68U747DS729FA9162
+[2025.12.19-12.57.03:539][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/4MYZV68U747DS729FA91621865BD5B4A40EBEFC4D4628F94739E00.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/D/86/4MYZV68U747DS729FA9162.uasset'
+[2025.12.19-12.57.03:543][612]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Lvl_ThirdPerson/9/WX/QHJ4OC1TTUER2XO5OJS1C3
+[2025.12.19-12.57.03:543][612]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/QHJ4OC1TTUER2XO5OJS1C33C8375A848332F59183CD88C8ACE2956.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/Lvl_ThirdPerson/9/WX/QHJ4OC1TTUER2XO5OJS1C3.uasset'
+[2025.12.19-12.57.03:558][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.437 ms (total: 2.24 sec)
+[2025.12.19-12.57.03:614][612]LogContentValidation: Display: Starting to validate 9 assets
+[2025.12.19-12.57.03:614][612]LogContentValidation: Enabled validators:
+[2025.12.19-12.57.03:614][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-12.57.03:614][612]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-12.57.03:614][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-12.57.03:614][612]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-12.57.03:614][612]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-12.57.03:614][612]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-12.57.03:614][612]AssetCheck: /Game/Level/Lvl_ThirdPerson Validating asset
+[2025.12.19-12.57.03:642][612]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.00.24:261][448]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4261.389160
+[2025.12.19-13.00.25:258][452]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.19-13.00.25:258][452]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4262.051758, Update Interval: 353.186432
+[2025.12.19-13.01.07:007][545]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.12.19-13.01.24:173][949]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.12.19-13.01.24:174][949]LogStreaming: Display: FlushAsyncLoading(665): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.01.28:060][266]LogStreaming: Display: FlushAsyncLoading(667): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.01.30:016][266]LogSlate: Window 'Redirector Update Report' being destroyed
+[2025.12.19-13.01.30:046][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.12.19-13.01.30:332][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.12.19-13.01.30:358][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.12.19-13.01.30:383][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.12.19-13.04.01:515][123]LogContentBrowser: Attempting asset rename: Lvl_TitleScreen -> L_TitleScreen
+[2025.12.19-13.04.01:515][123]LogStreaming: Display: FlushAsyncLoading(668): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.04.01:541][123]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TitleScreen
+[2025.12.19-13.04.05:998][123]LogSlate: Window 'Message' being destroyed
+[2025.12.19-13.04.06:004][123]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+Lvl_TitleScreen
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2025.12.19-13.04.06:031][123]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.04.06:032][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_TitleScreen" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/L_TitleScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.12.19-13.04.06:082][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.12.19-13.04.06:091][123]LogSavePackage: Moving output files for package: /Game/Level/L_TitleScreen
+[2025.12.19-13.04.06:091][123]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/L_TitleScreen2A01ED8743A29088609928B332978159.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/L_TitleScreen.umap'
+[2025.12.19-13.04.06:095][123]LogFileHelpers: Saving map 'L_TitleScreen' took 0.063
+[2025.12.19-13.04.06:095][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Level/Lvl_TitleScreen] ([5] browsable assets)...
+[2025.12.19-13.04.06:095][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Lvl_TitleScreen]
+[2025.12.19-13.04.06:095][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Lvl_TitleScreen" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/Lvl_TitleScreen.umap" SILENT=true
+[2025.12.19-13.04.06:098][123]LogSavePackage: Moving output files for package: /Game/Level/Lvl_TitleScreen
+[2025.12.19-13.04.06:098][123]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Lvl_TitleScreen0EDEECF14FA94A36D8A22F9EC162D450.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/Lvl_TitleScreen.umap'
+[2025.12.19-13.04.06:099][123]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.549 ms (total: 2.31 sec)
+[2025.12.19-13.04.06:159][123]LogContentValidation: Display: Starting to validate 4 assets
+[2025.12.19-13.04.06:159][123]LogContentValidation: Enabled validators:
+[2025.12.19-13.04.06:159][123]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-13.04.06:159][123]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-13.04.06:159][123]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-13.04.06:159][123]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-13.04.06:159][123]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-13.04.06:159][123]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-13.04.06:159][123]AssetCheck: /Game/Level/L_TitleScreen Validating asset
+[2025.12.19-13.04.06:159][123]AssetCheck: /Game/Level/Lvl_TitleScreen Validating asset
+[2025.12.19-13.04.06:159][123]AssetCheck: /Game/Level/Lvl_TitleScreen Validating asset
+[2025.12.19-13.04.06:159][123]AssetCheck: /Game/Level/Lvl_TitleScreen Validating asset
+[2025.12.19-13.04.06:204][123]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.04.21:627][418]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:627][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:736][418]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:736][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:744][418]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:744][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:807][418]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:807][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:815][418]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:815][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:855][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.21:855][418]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:856][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:922][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.21:923][418]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:923][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.21:994][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.21:994][418]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.21:994][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:082][418]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.22:082][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:115][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.22:115][418]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.22:115][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:180][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.22:180][418]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.22:180][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:248][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.22:248][418]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.22:248][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:308][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.22:308][418]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.22:308][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:360][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.19-13.04.22:360][418]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.22:360][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.22:441][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.12.19-13.04.49:594][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.12.19-13.04.49:600][930]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/L_TitleScreen.L_TitleScreen
+[2025.12.19-13.04.49:600][930]Cmd: MAP LOAD FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/L_TitleScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.19-13.04.49:659][930]LogWorld: UWorld::CleanupWorld for Lvl_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.49:659][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.49:659][930]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson
+[2025.12.19-13.04.49:691][930]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.19-13.04.49:696][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.12.19-13.04.49:700][930]LogWorld: UWorld::CleanupWorld for L_TitleScreen, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.04.49:700][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.04.49:722][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.12.19-13.04.49:795][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.12.19-13.04.49:796][930]LogStreaming: Display: FlushAsyncLoading(669): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.04.49:811][930]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_TitleScreen'.
+[2025.12.19-13.04.49:811][930]LogChaosDD: Creating Chaos Debug Draw Scene for world L_TitleScreen
+[2025.12.19-13.04.49:835][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.19-13.04.49:861][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.12.19-13.04.49:871][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.19-13.04.49:871][930]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,051ms to complete.
+[2025.12.19-13.04.49:946][932]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-13.04.56:791][726]LogContentBrowser: Attempting asset rename: Lvl_ThirdPerson -> L_ThirdPerson
+[2025.12.19-13.04.56:791][726]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.04.56:818][726]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_ThirdPerson
+[2025.12.19-13.04.56:819][726]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.19-13.04.56:819][726]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-13.04.56:819][726]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/Lvl_ThirdPerson.Lvl_ThirdPerson, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-13.04.56:821][726]LogWorldPartition: Display: WorldPartition initialize took 1.647 ms (total: 509.307 ms)
+[2025.12.19-13.04.58:455][726]LogSlate: Window 'Message' being destroyed
+[2025.12.19-13.04.58:462][726]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+Lvl_ThirdPerson
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2025.12.19-13.04.58:494][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.04.59:525][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.12.19-13.04.59:558][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.12.19-13.04.59:583][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.12.19-13.04.59:590][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:591][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:592][726]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.04.59:593][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_ThirdPerson" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/L_ThirdPerson.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.12.19-13.04.59:616][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.12.19-13.04.59:622][726]LogSavePackage: Moving output files for package: /Game/Level/L_ThirdPerson
+[2025.12.19-13.04.59:623][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/L_ThirdPerson5DE5A69D46AFAB0F236F7783106D1A4A.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/L_ThirdPerson.umap'
+[2025.12.19-13.04.59:626][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.04.59:628][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/D/7P/9MIRPJUXUIG70TTOZ0IWP3
+[2025.12.19-13.04.59:628][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/9MIRPJUXUIG70TTOZ0IWP35E3743D54A40D80B451D98A92464EF28.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/D/7P/9MIRPJUXUIG70TTOZ0IWP3.uasset'
+[2025.12.19-13.04.59:632][726]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Level/L_ThirdPerson/C/U3/PWAE99JHDO7ORSIIES9CW0
+[2025.12.19-13.04.59:632][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/PWAE99JHDO7ORSIIES9CW092F3B3874BEC2BAA47A9819AFA933755.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalObjects__/Level/L_ThirdPerson/C/U3/PWAE99JHDO7ORSIIES9CW0.uasset'
+[2025.12.19-13.04.59:635][726]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Level/L_ThirdPerson/0/81/LZ5DCS74SICATMPBW7F0BX
+[2025.12.19-13.04.59:636][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/LZ5DCS74SICATMPBW7F0BXA4A781EB4A9BFD66EFDE5F8E4DEE6BC0.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalObjects__/Level/L_ThirdPerson/0/81/LZ5DCS74SICATMPBW7F0BX.uasset'
+[2025.12.19-13.04.59:640][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/8/PE/UZUAWIUFZK1KSUV6QLDTHE
+[2025.12.19-13.04.59:640][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/UZUAWIUFZK1KSUV6QLDTHEC39552CF433A77E4E608FFBC98803D1B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/8/PE/UZUAWIUFZK1KSUV6QLDTHE.uasset'
+[2025.12.19-13.04.59:644][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/MF/FI3LTOMZTRGK8IOZYW02G2
+[2025.12.19-13.04.59:644][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/FI3LTOMZTRGK8IOZYW02G2568D52F64B0826CFB1A5FE987B152054.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/MF/FI3LTOMZTRGK8IOZYW02G2.uasset'
+[2025.12.19-13.04.59:648][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/1/NG/4YVOJV7WAKT8UL3AGK8Z7M
+[2025.12.19-13.04.59:648][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/4YVOJV7WAKT8UL3AGK8Z7M6E5C71E44ED391AA2C9870B070CDB7E5.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/1/NG/4YVOJV7WAKT8UL3AGK8Z7M.uasset'
+[2025.12.19-13.04.59:653][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/2/41/T7MYM60VMU039D7C3JT79Q
+[2025.12.19-13.04.59:653][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/T7MYM60VMU039D7C3JT79Q540A0359429AB556180A74B478BC9104.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/2/41/T7MYM60VMU039D7C3JT79Q.uasset'
+[2025.12.19-13.04.59:657][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/7H/V5OH4MJM4LO3S7KX5TGMJ1
+[2025.12.19-13.04.59:657][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/V5OH4MJM4LO3S7KX5TGMJ149AFF33646A3BA3DDDA1A29B102BD0DB.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/7H/V5OH4MJM4LO3S7KX5TGMJ1.uasset'
+[2025.12.19-13.04.59:661][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/E/DY/0IBMSIXSCB3JUX9QD1DBX7
+[2025.12.19-13.04.59:661][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/0IBMSIXSCB3JUX9QD1DBX7983AC224439ACF57E611BF9CA3F4B3C0.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/E/DY/0IBMSIXSCB3JUX9QD1DBX7.uasset'
+[2025.12.19-13.04.59:665][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/4/5W/G7U174U7L9Z9WQ9DGV8RSH
+[2025.12.19-13.04.59:665][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/G7U174U7L9Z9WQ9DGV8RSHC934EB0744DCC9C56502EC92773B4736.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/4/5W/G7U174U7L9Z9WQ9DGV8RSH.uasset'
+[2025.12.19-13.04.59:670][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/D/XV/RK04H10JBVBEKDDNGVT4WT
+[2025.12.19-13.04.59:670][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/RK04H10JBVBEKDDNGVT4WT416FF897443208A14C84F59B64A9A65B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/D/XV/RK04H10JBVBEKDDNGVT4WT.uasset'
+[2025.12.19-13.04.59:674][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/UQ/PAPGH1KUJQF1DFIVQTCZJL
+[2025.12.19-13.04.59:674][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/PAPGH1KUJQF1DFIVQTCZJLCA82F41440F3674DBC5AB28C62946132.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/UQ/PAPGH1KUJQF1DFIVQTCZJL.uasset'
+[2025.12.19-13.04.59:678][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/E/XB/ZVDGE8XP1LBB2OBWK6DAK5
+[2025.12.19-13.04.59:678][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/ZVDGE8XP1LBB2OBWK6DAK57BC20CD94EF19BD3356124B2A09391CA.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/E/XB/ZVDGE8XP1LBB2OBWK6DAK5.uasset'
+[2025.12.19-13.04.59:682][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/KJ/YZHOPSS7QRC914VG2074A2
+[2025.12.19-13.04.59:682][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/YZHOPSS7QRC914VG2074A2673383934712E49CF55669975E3D1B8E.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/KJ/YZHOPSS7QRC914VG2074A2.uasset'
+[2025.12.19-13.04.59:686][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/3/MD/KD50YIV3TYYRQUT19FMWF6
+[2025.12.19-13.04.59:686][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/KD50YIV3TYYRQUT19FMWF689919D3D46484EE7D06A8799CA5B4613.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/3/MD/KD50YIV3TYYRQUT19FMWF6.uasset'
+[2025.12.19-13.04.59:691][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/3/UA/5K8FZ73C0YT9E2CLRE3JVD
+[2025.12.19-13.04.59:691][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/5K8FZ73C0YT9E2CLRE3JVDD548599544701FD50293B1829F45B838.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/3/UA/5K8FZ73C0YT9E2CLRE3JVD.uasset'
+[2025.12.19-13.04.59:695][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/E/6P/XE8AULZ40SPHR40MWP12TI
+[2025.12.19-13.04.59:695][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/XE8AULZ40SPHR40MWP12TI2BD17DAE495465BDDA43239BD0BFDB07.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/E/6P/XE8AULZ40SPHR40MWP12TI.uasset'
+[2025.12.19-13.04.59:701][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/8/QA/GCA2WGIC89MLH6AG7ZWOPH
+[2025.12.19-13.04.59:701][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/GCA2WGIC89MLH6AG7ZWOPH3921B51941F0100B558AFEA2CA2F0F92.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/8/QA/GCA2WGIC89MLH6AG7ZWOPH.uasset'
+[2025.12.19-13.04.59:705][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/3/7Y/TKU5Q6509IM0GHBG85RKGX
+[2025.12.19-13.04.59:705][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/TKU5Q6509IM0GHBG85RKGX249195054260E588A9D502BC8546045C.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/3/7Y/TKU5Q6509IM0GHBG85RKGX.uasset'
+[2025.12.19-13.04.59:709][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/8/XS/P0M8ETZ9DD7GTL8RL3D78V
+[2025.12.19-13.04.59:709][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/P0M8ETZ9DD7GTL8RL3D78VD9DF190944324FFCBEC446BA0099C102.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/8/XS/P0M8ETZ9DD7GTL8RL3D78V.uasset'
+[2025.12.19-13.04.59:713][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/8/75/V6F910QTZHEU5RWHSXZ3DI
+[2025.12.19-13.04.59:713][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/V6F910QTZHEU5RWHSXZ3DI09AE1E40447A2D88C792E9A80314DD34.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/8/75/V6F910QTZHEU5RWHSXZ3DI.uasset'
+[2025.12.19-13.04.59:717][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/4/6S/NV1ON73BZR09ZH5G35INDM
+[2025.12.19-13.04.59:717][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/NV1ON73BZR09ZH5G35INDM56D80A444ACE5E4D174594A8D5F81DEC.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/4/6S/NV1ON73BZR09ZH5G35INDM.uasset'
+[2025.12.19-13.04.59:721][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/C/A0/ZKA0QCF6JUHK7V3NW11KD2
+[2025.12.19-13.04.59:722][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/ZKA0QCF6JUHK7V3NW11KD2162678FA46A8BDF0D8355A91DE8B8431.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/C/A0/ZKA0QCF6JUHK7V3NW11KD2.uasset'
+[2025.12.19-13.04.59:726][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/6/FY/IX0KCVFGHPSUIKIUGMIDJH
+[2025.12.19-13.04.59:726][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/IX0KCVFGHPSUIKIUGMIDJH1E74A65E4FDAAA73745F9599D1A506F2.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/6/FY/IX0KCVFGHPSUIKIUGMIDJH.uasset'
+[2025.12.19-13.04.59:730][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/E/J2/MLMEGYHO79NMA8EOQSAU0Q
+[2025.12.19-13.04.59:730][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/MLMEGYHO79NMA8EOQSAU0QCB0192CE47718DC3EE646CB596670110.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/E/J2/MLMEGYHO79NMA8EOQSAU0Q.uasset'
+[2025.12.19-13.04.59:734][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/D/OK/YNA2A55M0KMRTUJPOGMCV9
+[2025.12.19-13.04.59:734][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/YNA2A55M0KMRTUJPOGMCV96CD77DBE4386FD7964CAAA813D932DF8.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/D/OK/YNA2A55M0KMRTUJPOGMCV9.uasset'
+[2025.12.19-13.04.59:738][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/5/PN/77WUJ6JMFQIDZIMCZ6YMLV
+[2025.12.19-13.04.59:738][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/77WUJ6JMFQIDZIMCZ6YMLV184C79A84396D3E699D68B8919533012.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/5/PN/77WUJ6JMFQIDZIMCZ6YMLV.uasset'
+[2025.12.19-13.04.59:742][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/7N/JB4W6E2QNH3U4DOGP77HM8
+[2025.12.19-13.04.59:742][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/JB4W6E2QNH3U4DOGP77HM814DC14F344575BEAC0FCC58F2151F5B7.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/7N/JB4W6E2QNH3U4DOGP77HM8.uasset'
+[2025.12.19-13.04.59:746][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/5/RC/YCJVW7ZAUWFUPLTTJ6OQ1X
+[2025.12.19-13.04.59:746][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/YCJVW7ZAUWFUPLTTJ6OQ1X85E7B26D40622BD11521FCA348679EB0.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/5/RC/YCJVW7ZAUWFUPLTTJ6OQ1X.uasset'
+[2025.12.19-13.04.59:750][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/2/4L/662MGM4RFODRDAH9823YEE
+[2025.12.19-13.04.59:750][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/662MGM4RFODRDAH9823YEEF68A9360421AEE2AF85F46BD22D17861.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/2/4L/662MGM4RFODRDAH9823YEE.uasset'
+[2025.12.19-13.04.59:754][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/0/N3/JXRH7ZW2EYU14V6QZABCPR
+[2025.12.19-13.04.59:754][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/JXRH7ZW2EYU14V6QZABCPR3497987A4C668171E1BF359EB48C08D9.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/0/N3/JXRH7ZW2EYU14V6QZABCPR.uasset'
+[2025.12.19-13.04.59:758][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/3/9M/ADNQSZ596JLP9LUZ6CNH8O
+[2025.12.19-13.04.59:758][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/ADNQSZ596JLP9LUZ6CNH8O54FB5C5B4491064E53A42EB64D71FE9A.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/3/9M/ADNQSZ596JLP9LUZ6CNH8O.uasset'
+[2025.12.19-13.04.59:762][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/6/G5/2OD25ISIRGOPQ8GXCLMF4E
+[2025.12.19-13.04.59:762][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/2OD25ISIRGOPQ8GXCLMF4EC089BD844F9CE7FE3BC05894A882DC17.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/6/G5/2OD25ISIRGOPQ8GXCLMF4E.uasset'
+[2025.12.19-13.04.59:765][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/5/AO/ASKRVD0ZRRPG7TNX4Y9A99
+[2025.12.19-13.04.59:766][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/ASKRVD0ZRRPG7TNX4Y9A99F9848AB741283D1BAB68CD8F62B2DEBD.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/5/AO/ASKRVD0ZRRPG7TNX4Y9A99.uasset'
+[2025.12.19-13.04.59:769][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/F/5H/15G46Q6F853MLEN8DXG87Q
+[2025.12.19-13.04.59:769][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/15G46Q6F853MLEN8DXG87Q9F10A82F46E6A8C3D9F1208E40126F67.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/F/5H/15G46Q6F853MLEN8DXG87Q.uasset'
+[2025.12.19-13.04.59:773][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/B/NU/1BJRSTJ47U8OTLQJ1T9N8G
+[2025.12.19-13.04.59:773][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/1BJRSTJ47U8OTLQJ1T9N8G0CBC613F46A382D78DB2E09D40CCC882.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/B/NU/1BJRSTJ47U8OTLQJ1T9N8G.uasset'
+[2025.12.19-13.04.59:777][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/B/GU/9ITKYIHKL3HYAS0QX79NFT
+[2025.12.19-13.04.59:777][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/9ITKYIHKL3HYAS0QX79NFTDCB2F0394D11D3D485F37BAFA1DAF1BD.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/B/GU/9ITKYIHKL3HYAS0QX79NFT.uasset'
+[2025.12.19-13.04.59:781][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/A/PY/H6M3ZEA2RU6ZSQDXYGLHKD
+[2025.12.19-13.04.59:781][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/H6M3ZEA2RU6ZSQDXYGLHKDF3CBBB0A4AD87A781BAC02B2839D35CB.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/A/PY/H6M3ZEA2RU6ZSQDXYGLHKD.uasset'
+[2025.12.19-13.04.59:785][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/9/KD/0FDLZET1CBTP4JCXQQZZOT
+[2025.12.19-13.04.59:785][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/0FDLZET1CBTP4JCXQQZZOTDFF6C8E842689A2AF1134AB9FED14245.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/9/KD/0FDLZET1CBTP4JCXQQZZOT.uasset'
+[2025.12.19-13.04.59:789][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/1/79/D05X1M6O2K4CC45Z5DTKSD
+[2025.12.19-13.04.59:789][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/D05X1M6O2K4CC45Z5DTKSD729F152944AD41EFAC60DF8A89BDEF47.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/1/79/D05X1M6O2K4CC45Z5DTKSD.uasset'
+[2025.12.19-13.04.59:793][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/E/HN/GWFD96KT0IVYOUXTNEPXUI
+[2025.12.19-13.04.59:793][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/GWFD96KT0IVYOUXTNEPXUI666068D7446EF25343ABB3B882B141A4.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/E/HN/GWFD96KT0IVYOUXTNEPXUI.uasset'
+[2025.12.19-13.04.59:797][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/A/QI/P4N16U2R0GIRS3JKOOI4XM
+[2025.12.19-13.04.59:797][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/P4N16U2R0GIRS3JKOOI4XM8FDBDB5442DC3D60AD416CB26CCCF0BE.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/A/QI/P4N16U2R0GIRS3JKOOI4XM.uasset'
+[2025.12.19-13.04.59:801][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/C/02/BB31YI8NY80ETWWSF1TNSJ
+[2025.12.19-13.04.59:801][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BB31YI8NY80ETWWSF1TNSJ13A6B0D24CA7F4C340719E85E787FD52.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/C/02/BB31YI8NY80ETWWSF1TNSJ.uasset'
+[2025.12.19-13.04.59:805][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/GM/OJFMWWBP3YMUQ6NY55MOO9
+[2025.12.19-13.04.59:805][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/OJFMWWBP3YMUQ6NY55MOO9A469C8A044E770DA16807388562EB36B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/GM/OJFMWWBP3YMUQ6NY55MOO9.uasset'
+[2025.12.19-13.04.59:810][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/2/T6/7297OTPCVQNS13L51Q88MT
+[2025.12.19-13.04.59:810][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/7297OTPCVQNS13L51Q88MT7F889A5348A7C6CF98CCDBBD4DB8A61F.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/2/T6/7297OTPCVQNS13L51Q88MT.uasset'
+[2025.12.19-13.04.59:814][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/6/T6/2CRD5R77AFCXIDRL5IEV23
+[2025.12.19-13.04.59:814][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/2CRD5R77AFCXIDRL5IEV23DB39AD9F4C06F85B4FE91FAB095A494D.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/6/T6/2CRD5R77AFCXIDRL5IEV23.uasset'
+[2025.12.19-13.04.59:819][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/9/3H/OTVCM4ZYFMI6PWVE6RUV34
+[2025.12.19-13.04.59:819][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/OTVCM4ZYFMI6PWVE6RUV3481E754B34F6AFB451C87918F2A6A84DB.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/9/3H/OTVCM4ZYFMI6PWVE6RUV34.uasset'
+[2025.12.19-13.04.59:823][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/6/QQ/0RCLCHI50F0LNUV58SMW95
+[2025.12.19-13.04.59:823][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/0RCLCHI50F0LNUV58SMW953344FD804EBF75141B3190BE9821132F.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/6/QQ/0RCLCHI50F0LNUV58SMW95.uasset'
+[2025.12.19-13.04.59:826][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/C/BD/UPFI3HEQSIAK9764U7HY9K
+[2025.12.19-13.04.59:826][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/UPFI3HEQSIAK9764U7HY9KC41AFDF746E5CFDB9E564882C34AD937.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/C/BD/UPFI3HEQSIAK9764U7HY9K.uasset'
+[2025.12.19-13.04.59:830][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/2/ZU/QRG60QXENXN60YXSM2SY9S
+[2025.12.19-13.04.59:830][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/QRG60QXENXN60YXSM2SY9S25153F264EA30FFCA5774DAD90C57D44.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/2/ZU/QRG60QXENXN60YXSM2SY9S.uasset'
+[2025.12.19-13.04.59:834][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/A/SV/15Y3LGDURXE8SVIR6J0CBQ
+[2025.12.19-13.04.59:834][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/15Y3LGDURXE8SVIR6J0CBQ0711C2A642C3FFC7DA1E06B3AEAB2130.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/A/SV/15Y3LGDURXE8SVIR6J0CBQ.uasset'
+[2025.12.19-13.04.59:840][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/6/8Z/EJT5GONUV2UZIIPPUJKO7K
+[2025.12.19-13.04.59:840][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/EJT5GONUV2UZIIPPUJKO7K260087414218F47484AF5A951B7DC4C6.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/6/8Z/EJT5GONUV2UZIIPPUJKO7K.uasset'
+[2025.12.19-13.04.59:844][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/4C/206CI36XMZZBE20EZZ26CG
+[2025.12.19-13.04.59:844][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/206CI36XMZZBE20EZZ26CG8AD3FED44747E2966477748048B99538.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/4C/206CI36XMZZBE20EZZ26CG.uasset'
+[2025.12.19-13.04.59:849][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/C/I8/3GP4IOCQ330RIK8TQPPO2E
+[2025.12.19-13.04.59:849][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/3GP4IOCQ330RIK8TQPPO2E99E0F45949191EA9A0A65C885F3D78E7.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/C/I8/3GP4IOCQ330RIK8TQPPO2E.uasset'
+[2025.12.19-13.04.59:853][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/1/LC/XD9TEW0M349PWQLEHESAE9
+[2025.12.19-13.04.59:853][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/XD9TEW0M349PWQLEHESAE9795661AB4FA9E84FE478E6A947D1EC57.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/1/LC/XD9TEW0M349PWQLEHESAE9.uasset'
+[2025.12.19-13.04.59:857][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/B/1E/H0BQ8EYIV3E3Q49JQK297T
+[2025.12.19-13.04.59:857][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/H0BQ8EYIV3E3Q49JQK297TBDB280704B3DFF66EFDCFD86E0D0506D.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/B/1E/H0BQ8EYIV3E3Q49JQK297T.uasset'
+[2025.12.19-13.04.59:861][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/1/HL/G3IMO9SO1QGCMI053IZVKF
+[2025.12.19-13.04.59:861][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/G3IMO9SO1QGCMI053IZVKF60380B21427D667658F0AC940A580438.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/1/HL/G3IMO9SO1QGCMI053IZVKF.uasset'
+[2025.12.19-13.04.59:865][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/C/BL/5WUDIM2IDIN8DGXWXSLTC2
+[2025.12.19-13.04.59:865][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/5WUDIM2IDIN8DGXWXSLTC2FA4303A3449FFC06E4A819872A0D3ADC.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/C/BL/5WUDIM2IDIN8DGXWXSLTC2.uasset'
+[2025.12.19-13.04.59:868][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/0/5V/CUNN7VQ7KJXV8PMA2INFLN
+[2025.12.19-13.04.59:868][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/CUNN7VQ7KJXV8PMA2INFLN6FFB67B044A3CE7491E699BBE1CB47BE.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/0/5V/CUNN7VQ7KJXV8PMA2INFLN.uasset'
+[2025.12.19-13.04.59:873][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/2/HV/HCV123YK79SJPK6JUKEQDQ
+[2025.12.19-13.04.59:873][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/HCV123YK79SJPK6JUKEQDQ9818601748472A096EAF21925E07C342.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/2/HV/HCV123YK79SJPK6JUKEQDQ.uasset'
+[2025.12.19-13.04.59:877][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/2/CO/JQL36JMFM3TU7YVA8LX5J0
+[2025.12.19-13.04.59:877][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/JQL36JMFM3TU7YVA8LX5J0E533F9FA4D006856C102BEA3F3727DC3.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/2/CO/JQL36JMFM3TU7YVA8LX5J0.uasset'
+[2025.12.19-13.04.59:881][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/B/GV/HM6W70ODTOVQIVMXJJN3SB
+[2025.12.19-13.04.59:881][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/HM6W70ODTOVQIVMXJJN3SBF4A2A2284DA75B83C3F92B812D448E4E.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/B/GV/HM6W70ODTOVQIVMXJJN3SB.uasset'
+[2025.12.19-13.04.59:885][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/7/JL/PXAZPBYW6YYP4EIKKEAH2V
+[2025.12.19-13.04.59:885][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/PXAZPBYW6YYP4EIKKEAH2V5C23808F44D2B5EC5FADB2B66884FF88.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/7/JL/PXAZPBYW6YYP4EIKKEAH2V.uasset'
+[2025.12.19-13.04.59:890][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/4/T8/AAHZIN8GECJ6GSWCNKM1DG
+[2025.12.19-13.04.59:890][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/AAHZIN8GECJ6GSWCNKM1DGE98B207B445401F4F02B84A0CC2F0B2A.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/4/T8/AAHZIN8GECJ6GSWCNKM1DG.uasset'
+[2025.12.19-13.04.59:894][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/1/A4/WD2RAPKSKHYX06QVVA2Z6H
+[2025.12.19-13.04.59:894][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/WD2RAPKSKHYX06QVVA2Z6H493B4E104E709B57688102867699AEDF.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/1/A4/WD2RAPKSKHYX06QVVA2Z6H.uasset'
+[2025.12.19-13.04.59:898][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/C/C7/MLO8ZKZA7Q3QJH6GV2TKZW
+[2025.12.19-13.04.59:898][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/MLO8ZKZA7Q3QJH6GV2TKZW00E2B2044D3EA339CCDCE8AD45412473.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/C/C7/MLO8ZKZA7Q3QJH6GV2TKZW.uasset'
+[2025.12.19-13.04.59:903][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/A/D7/TXOA97V7DJDC8KZ98LLNNR
+[2025.12.19-13.04.59:903][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/TXOA97V7DJDC8KZ98LLNNRD3C6AC464142D7F28989ECBC9FAB4D65.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/A/D7/TXOA97V7DJDC8KZ98LLNNR.uasset'
+[2025.12.19-13.04.59:908][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/B/WE/YGZI611Z4LJR8F2SRSF2HU
+[2025.12.19-13.04.59:908][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/YGZI611Z4LJR8F2SRSF2HU015760A14EDD6D88DCD2278D7C97E160.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/B/WE/YGZI611Z4LJR8F2SRSF2HU.uasset'
+[2025.12.19-13.04.59:911][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/E/NZ/QP0UQQCDQZOZ7XBKN5MO3J
+[2025.12.19-13.04.59:911][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/QP0UQQCDQZOZ7XBKN5MO3JB77A0FBA434D85C4EB5C3991563B5B6C.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/E/NZ/QP0UQQCDQZOZ7XBKN5MO3J.uasset'
+[2025.12.19-13.04.59:915][726]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/8/QB/349PMMUDX0DDH8QW7MB2TX
+[2025.12.19-13.04.59:915][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/349PMMUDX0DDH8QW7MB2TX793AEF284E522953F8F7C5A29D48CC92.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/8/QB/349PMMUDX0DDH8QW7MB2TX.uasset'
+[2025.12.19-13.04.59:917][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 290.984 ms (total: 2.60 sec)
+[2025.12.19-13.04.59:925][726]LogFileHelpers: Saving map 'L_ThirdPerson' took 0.336
+[2025.12.19-13.04.59:925][726]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Level/Lvl_ThirdPerson] ([1] browsable assets)...
+[2025.12.19-13.04.59:925][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/Level/Lvl_ThirdPerson]
+[2025.12.19-13.04.59:925][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/Lvl_ThirdPerson" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/Lvl_ThirdPerson.umap" SILENT=true
+[2025.12.19-13.04.59:928][726]LogSavePackage: Moving output files for package: /Game/Level/Lvl_ThirdPerson
+[2025.12.19-13.04.59:928][726]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Lvl_ThirdPerson7B49D10147D5C1214934409C3AC0DDFA.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/Lvl_ThirdPerson.umap'
+[2025.12.19-13.04.59:928][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.43 sec (total: 4.04 sec)
+[2025.12.19-13.04.59:992][726]LogContentValidation: Display: Starting to validate 72 assets
+[2025.12.19-13.04.59:992][726]LogContentValidation: Enabled validators:
+[2025.12.19-13.04.59:992][726]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-13.04.59:992][726]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-13.04.59:992][726]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-13.04.59:992][726]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-13.04.59:992][726]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-13.04.59:992][726]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-13.04.59:992][726]AssetCheck: /Game/Level/L_ThirdPerson Validating asset
+[2025.12.19-13.04.59:992][726]AssetCheck: /Game/Level/Lvl_ThirdPerson Validating asset
+[2025.12.19-13.05.00:028][726]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.05.03:010][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.12.19-13.05.03:012][ 38]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Level/L_ThirdPerson.L_ThirdPerson
+[2025.12.19-13.05.03:012][ 38]Cmd: MAP LOAD FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Level/L_ThirdPerson.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.19-13.05.03:061][ 38]LogWorld: UWorld::CleanupWorld for L_TitleScreen, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.05.03:061][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.05.03:084][ 38]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.19-13.05.03:086][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.12.19-13.05.03:088][ 38]LogWorld: UWorld::CleanupWorld for L_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.05.03:089][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.05.03:089][ 38]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/L_ThirdPerson.L_ThirdPerson
+[2025.12.19-13.05.03:117][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.19-13.05.03:180][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.12.19-13.05.03:181][ 38]LogStreaming: Display: FlushAsyncLoading(741): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.05.03:184][ 38]LogAudio: Display: Audio Device (ID: 1) registered with world 'L_ThirdPerson'.
+[2025.12.19-13.05.03:184][ 38]LogChaosDD: Creating Chaos Debug Draw Scene for world L_ThirdPerson
+[2025.12.19-13.05.03:186][ 38]LogWorldPartition: ULevel::OnLevelLoaded(L_ThirdPerson)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.12.19-13.05.03:186][ 38]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-13.05.03:186][ 38]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/L_ThirdPerson.L_ThirdPerson, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-13.05.03:204][ 38]LogWorldPartition: Display: WorldPartition initialize took 18.109 ms (total: 527.417 ms)
+[2025.12.19-13.05.03:205][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:205][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:205][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:205][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:205][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:205][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:206][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:206][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:206][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:206][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:206][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:206][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:207][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:209][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:209][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:210][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:212][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF0A302_1705890863.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:213][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1878681042.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:213][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:217][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:218][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:219][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:219][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:220][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:222][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1921444043.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:224][ 38]LogPhysics: Warning: Scale for /Game/Level/L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-13.05.03:247][ 38]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.19-13.05.03:272][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.12.19-13.05.03:283][ 38]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.19-13.05.03:283][ 38]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,545ms to complete.
+[2025.12.19-13.05.03:373][ 40]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-13.05.07:563][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.12.19-13.06.02:048][140]LogContentBrowser: Attempting asset rename: Tuyau -> SM_Tuyau
+[2025.12.19-13.06.02:158][140]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.06.02:159][140]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Tuyau] ([1] browsable assets)...
+[2025.12.19-13.06.02:159][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Tuyau]
+[2025.12.19-13.06.02:159][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/Meshes/SM_Tuyau" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/SM_Tuyau.uasset" SILENT=true
+[2025.12.19-13.06.02:167][140]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/SM_Tuyau
+[2025.12.19-13.06.02:167][140]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SM_Tuyau6DEBE9F84452991E3E9B1083E4933235.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/SM_Tuyau.uasset'
+[2025.12.19-13.06.02:168][140]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/Tuyau] ([1] browsable assets)...
+[2025.12.19-13.06.02:168][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/Tuyau]
+[2025.12.19-13.06.02:168][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/Meshes/Tuyau" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/Tuyau.uasset" SILENT=true
+[2025.12.19-13.06.02:171][140]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/Tuyau
+[2025.12.19-13.06.02:171][140]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/Tuyau4713DE394CEEF86FE7D8CEA080B6B326.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/Tuyau.uasset'
+[2025.12.19-13.06.02:171][140]LogFileHelpers: InternalPromptForCheckoutAndSave took 13.174 ms (total: 4.05 sec)
+[2025.12.19-13.06.02:224][140]LogContentValidation: Display: Starting to validate 2 assets
+[2025.12.19-13.06.02:224][140]LogContentValidation: Enabled validators:
+[2025.12.19-13.06.02:224][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-13.06.02:224][140]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-13.06.02:224][140]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-13.06.02:224][140]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-13.06.02:224][140]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-13.06.02:224][140]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-13.06.02:226][140]AssetCheck: /Game/LevelPrototyping/Meshes/SM_Tuyau Validating asset
+[2025.12.19-13.06.02:226][140]AssetCheck: /Game/LevelPrototyping/Meshes/Tuyau Validating asset
+[2025.12.19-13.06.02:261][140]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.06.03:696][290]LogSlate: Took 0.003389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.12.19-13.06.11:193][ 12]LogContentBrowser: Attempting asset rename: Drapeau -> SM_Drapeau
+[2025.12.19-13.06.11:268][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.06.11:268][ 12]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Teleport/BP_Checkpoint] ([2] browsable assets)...
+[2025.12.19-13.06.11:308][ 12]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Teleport/BP_Checkpoint.BP_Checkpoint]
+[2025.12.19-13.06.11:308][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Teleport/BP_Checkpoint]
+[2025.12.19-13.06.11:308][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Teleport/BP_Checkpoint" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Checkpoint.uasset" SILENT=true
+[2025.12.19-13.06.11:317][ 12]LogSavePackage: Moving output files for package: /Game/Blueprint/Teleport/BP_Checkpoint
+[2025.12.19-13.06.11:317][ 12]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Checkpoint9A5213424B2213F21146B3B0792D0756.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Checkpoint.uasset'
+[2025.12.19-13.06.11:318][ 12]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Drapeau] ([1] browsable assets)...
+[2025.12.19-13.06.11:318][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Drapeau]
+[2025.12.19-13.06.11:318][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelPrototyping/Meshes/SM_Drapeau" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/SM_Drapeau.uasset" SILENT=true
+[2025.12.19-13.06.11:323][ 12]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/SM_Drapeau
+[2025.12.19-13.06.11:323][ 12]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SM_Drapeau99EF42D249DD471438714796C827144B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/SM_Drapeau.uasset'
+[2025.12.19-13.06.11:324][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.612 ms (total: 4.11 sec)
+[2025.12.19-13.06.11:365][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.12.19-13.06.11:394][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.12.19-13.06.11:418][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: Display: Starting to validate 2 assets
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: Enabled validators:
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-13.06.11:475][ 12]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-13.06.11:475][ 12]AssetCheck: /Game/Blueprint/Teleport/BP_Checkpoint Validating asset
+[2025.12.19-13.06.11:475][ 12]AssetCheck: /Game/LevelPrototyping/Meshes/SM_Drapeau Validating asset
+[2025.12.19-13.06.11:511][ 12]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.06.23:329][161]LogContentBrowser: Attempting asset rename: PiegesPiques -> SM_PiegesPiques
+[2025.12.19-13.06.23:423][161]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.06.23:423][161]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Traps/BP_PiegesPiques_Parent] ([2] browsable assets)...
+[2025.12.19-13.06.23:460][161]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Traps/BP_PiegesPiques_Parent.BP_PiegesPiques_Parent]
+[2025.12.19-13.06.23:461][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Traps/BP_PiegesPiques_Parent]
+[2025.12.19-13.06.23:461][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Traps/BP_PiegesPiques_Parent" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Parent.uasset" SILENT=true
+[2025.12.19-13.06.23:470][161]LogSavePackage: Moving output files for package: /Game/Blueprint/Traps/BP_PiegesPiques_Parent
+[2025.12.19-13.06.23:470][161]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_PiegesPiques_ParentA3AD361C415C1EDDB1DD499252AF10FE.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Parent.uasset'
+[2025.12.19-13.06.23:470][161]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_PiegesPiques] ([1] browsable assets)...
+[2025.12.19-13.06.23:470][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_PiegesPiques]
+[2025.12.19-13.06.23:475][161]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/Meshes/SM_PiegesPiques
+[2025.12.19-13.06.23:475][161]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SM_PiegesPiques8ED57A194E369CC2A21714B101FF8CE0.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/Meshes/SM_PiegesPiques.uasset'
+[2025.12.19-13.06.23:476][161]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.998 ms (total: 4.16 sec)
+[2025.12.19-13.06.23:509][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.12.19-13.06.23:535][161]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.12.19-13.06.23:560][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.12.19-13.06.23:625][161]LogContentValidation: Display: Starting to validate 2 assets
+[2025.12.19-13.06.23:625][161]LogContentValidation: Enabled validators:
+[2025.12.19-13.06.23:625][161]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-13.06.23:625][161]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-13.06.23:625][161]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-13.06.23:625][161]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-13.06.23:625][161]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-13.06.23:625][161]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-13.06.23:626][161]AssetCheck: /Game/Blueprint/Traps/BP_PiegesPiques_Parent Validating asset
+[2025.12.19-13.06.23:626][161]AssetCheck: /Game/LevelPrototyping/Meshes/SM_PiegesPiques Validating asset
+[2025.12.19-13.06.23:663][161]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.06.31:111][916]LogStreaming: Display: FlushAsyncLoading(811): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.06.31:533][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.12.19-13.06.32:756][916]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.19-13.06.32:795][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.12.19-13.06.32:818][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.12.19-13.06.32:842][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.12.19-13.07.02:816][  9]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4659.938965
+[2025.12.19-13.07.02:962][ 25]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.19-13.07.02:962][ 25]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4660.074707, Update Interval: 306.919769
+[2025.12.19-13.07.15:670][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-13.07.15:670][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Platform/BP_Trampoline] ([2] browsable assets)...
+[2025.12.19-13.07.15:708][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Platform/BP_Trampoline.BP_Trampoline]
+[2025.12.19-13.07.15:709][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Platform/BP_Trampoline]
+[2025.12.19-13.07.15:709][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Platform/BP_Trampoline" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Platform/BP_Trampoline.uasset" SILENT=true
+[2025.12.19-13.07.15:716][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Platform/BP_Trampoline
+[2025.12.19-13.07.15:716][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Trampoline08863EFB4D5E0D0589F0BCBCC77ED249.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Platform/BP_Trampoline.uasset'
+[2025.12.19-13.07.15:716][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Teleport/BP_Tuyau] ([2] browsable assets)...
+[2025.12.19-13.07.15:723][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Teleport/BP_Tuyau.BP_Tuyau]
+[2025.12.19-13.07.15:723][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Teleport/BP_Tuyau]
+[2025.12.19-13.07.15:723][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Teleport/BP_Tuyau" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Tuyau.uasset" SILENT=true
+[2025.12.19-13.07.15:731][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Teleport/BP_Tuyau
+[2025.12.19-13.07.15:731][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Tuyau36D040444AC7E46BE21AEA8FF64A3B3B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Tuyau.uasset'
+[2025.12.19-13.07.15:732][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Death/BP_Mort] ([2] browsable assets)...
+[2025.12.19-13.07.15:732][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Death/BP_Mort]
+[2025.12.19-13.07.15:732][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Death/BP_Mort" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Death/BP_Mort.uasset" SILENT=true
+[2025.12.19-13.07.15:738][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Death/BP_Mort
+[2025.12.19-13.07.15:738][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_MortA7ED57424F64CC9AA8CCD6A12E7F785B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Death/BP_Mort.uasset'
+[2025.12.19-13.07.15:739][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Teleport/BP_Checkpoint] ([2] browsable assets)...
+[2025.12.19-13.07.15:748][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Teleport/BP_Checkpoint.BP_Checkpoint]
+[2025.12.19-13.07.15:748][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Teleport/BP_Checkpoint]
+[2025.12.19-13.07.15:748][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Teleport/BP_Checkpoint" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Checkpoint.uasset" SILENT=true
+[2025.12.19-13.07.15:755][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Teleport/BP_Checkpoint
+[2025.12.19-13.07.15:755][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Checkpoint7C5AD1344900F976149CC5B9E0ACD556.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Teleport/BP_Checkpoint.uasset'
+[2025.12.19-13.07.15:755][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Traps/BP_BlocPiege_Parent] ([2] browsable assets)...
+[2025.12.19-13.07.15:762][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Traps/BP_BlocPiege_Parent.BP_BlocPiege_Parent]
+[2025.12.19-13.07.15:762][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Traps/BP_BlocPiege_Parent]
+[2025.12.19-13.07.15:762][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Traps/BP_BlocPiege_Parent" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_BlocPiege_Parent.uasset" SILENT=true
+[2025.12.19-13.07.15:769][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Traps/BP_BlocPiege_Parent
+[2025.12.19-13.07.15:770][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_BlocPiege_ParentA6FBFF4F476568F605EBC394BFCF2959.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_BlocPiege_Parent.uasset'
+[2025.12.19-13.07.15:770][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Collectable/BP_Collectable] ([2] browsable assets)...
+[2025.12.19-13.07.15:776][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Collectable/BP_Collectable.BP_Collectable]
+[2025.12.19-13.07.15:776][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Collectable/BP_Collectable]
+[2025.12.19-13.07.15:776][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Collectable/BP_Collectable" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Collectable/BP_Collectable.uasset" SILENT=true
+[2025.12.19-13.07.15:784][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Collectable/BP_Collectable
+[2025.12.19-13.07.15:784][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_Collectable3B0F4C7E4681951ABB4387B831C55317.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Collectable/BP_Collectable.uasset'
+[2025.12.19-13.07.15:785][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Traps/BP_PiegesPiques_Child] ([2] browsable assets)...
+[2025.12.19-13.07.15:792][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Traps/BP_PiegesPiques_Child.BP_PiegesPiques_Child]
+[2025.12.19-13.07.15:792][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Traps/BP_PiegesPiques_Child]
+[2025.12.19-13.07.15:792][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Traps/BP_PiegesPiques_Child" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Child.uasset" SILENT=true
+[2025.12.19-13.07.15:802][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Traps/BP_PiegesPiques_Child
+[2025.12.19-13.07.15:802][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_PiegesPiques_Child41E0A9354A47D3E68FB0AEB86F4614D2.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Child.uasset'
+[2025.12.19-13.07.15:802][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Traps/BP_PiegesPiques_Parent] ([2] browsable assets)...
+[2025.12.19-13.07.15:809][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Traps/BP_PiegesPiques_Parent.BP_PiegesPiques_Parent]
+[2025.12.19-13.07.15:809][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Traps/BP_PiegesPiques_Parent]
+[2025.12.19-13.07.15:809][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Traps/BP_PiegesPiques_Parent" FILE="D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Parent.uasset" SILENT=true
+[2025.12.19-13.07.15:818][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Traps/BP_PiegesPiques_Parent
+[2025.12.19-13.07.15:818][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_PiegesPiques_Parent36F77A434D3075600A319691E5843BAA.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Parent.uasset'
+[2025.12.19-13.07.15:819][292]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Traps/BP_PiegesPiques_Parent_Child2] ([2] browsable assets)...
+[2025.12.19-13.07.15:826][292]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprint/Traps/BP_PiegesPiques_Parent_Child2.BP_PiegesPiques_Parent_Child2]
+[2025.12.19-13.07.15:826][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Traps/BP_PiegesPiques_Parent_Child2]
+[2025.12.19-13.07.15:835][292]LogSavePackage: Moving output files for package: /Game/Blueprint/Traps/BP_PiegesPiques_Parent_Child2
+[2025.12.19-13.07.15:835][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_PiegesPiques_Parent_Child296573278404A3ABEDDF7EEB37E320BDB.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/Traps/BP_PiegesPiques_Parent_Child2.uasset'
+[2025.12.19-13.07.15:836][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.19-13.07.15:836][292]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.12.19-13.07.15:851][292]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2025.12.19-13.07.15:852][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.19-13.07.15:867][292]LogSavePackage: Moving output files for package: /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.12.19-13.07.15:867][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonCharacter3B2A3316451C9ABB5D2330A5FDF05C15.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.12.19-13.07.15:871][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([2] browsable assets)...
+[2025.12.19-13.07.15:871][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2025.12.19-13.07.15:875][292]LogSavePackage: Moving output files for package: /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2025.12.19-13.07.15:875][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonGameMode7595E7E54ABB070C52784FB757491215.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2025.12.19-13.07.15:878][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([5] browsable assets)...
+[2025.12.19-13.07.15:878][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2025.12.19-13.07.15:881][292]LogSavePackage: Moving output files for package: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2025.12.19-13.07.15:881][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonGameMode2A9386484CA63109B104DFA3F2673769.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2025.12.19-13.07.15:884][292]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController] ([2] browsable assets)...
+[2025.12.19-13.07.15:884][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController]
+[2025.12.19-13.07.15:892][292]LogSavePackage: Moving output files for package: /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController
+[2025.12.19-13.07.15:892][292]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/BP_ThirdPersonPlayerControllerBCD8ECC74F963BDCC9486383ABD35618.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset'
+[2025.12.19-13.07.15:895][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 224.428 ms (total: 4.38 sec)
+[2025.12.19-13.07.15:963][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.12.19-13.07.15:991][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2025.12.19-13.07.16:015][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.12.19-13.07.16:037][292]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.12.19-13.07.16:037][292]LogContentValidation: Display: Starting to validate 15 assets
+[2025.12.19-13.07.16:037][292]LogContentValidation: Enabled validators:
+[2025.12.19-13.07.16:037][292]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-13.07.16:037][292]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-13.07.16:037][292]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-13.07.16:037][292]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-13.07.16:037][292]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-13.07.16:037][292]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-13.07.16:037][292]AssetCheck: /Game/Blueprint/Platform/BP_Trampoline Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Teleport/BP_Tuyau Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Death/BP_Mort Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Teleport/BP_Checkpoint Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Traps/BP_BlocPiege_Parent Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Collectable/BP_Collectable Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Traps/BP_PiegesPiques_Child Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Traps/BP_PiegesPiques_Parent Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/Traps/BP_PiegesPiques_Parent_Child2 Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonGameMode Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode Validating asset
+[2025.12.19-13.07.16:038][292]AssetCheck: /Game/Blueprint/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController Validating asset
+[2025.12.19-13.07.16:051][292]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.19-13.07.25:754][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.19-13.07.35:935][287]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.19-13.08.37:425][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.12.19-13.08.38:469][651]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.19-13.08.38:492][651]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.Default__BP_ThirdPersonGameMode_C
+	Asset Type: ObjectRedirector
+	Asset Name: /Game/LevelPrototyping/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+	Asset Type: ObjectRedirector
+[2025.12.19-13.08.38:785][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.12.19-13.08.57:590][662]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.12.19-13.09.20:869][115]LogStreaming: Display: FlushAsyncLoading(812): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.19-13.09.20:872][115]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/BP_ScoreCollector.BP_ScoreCollector
+[2025.12.19-13.09.20:872][115]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2025.12.19-13.09.26:220][718]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-13.09.26:220][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-13.09.26:277][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.12.19-13.12.58:568][622]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5015.708984
+[2025.12.19-13.12.59:564][625]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.19-13.12.59:564][625]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5016.372070, Update Interval: 312.962433
