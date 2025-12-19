@@ -20695,3 +20695,446 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2025.12.19-15.49.36:617][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
 [2025.12.19-15.49.36:646][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
 [2025.12.19-15.49.36:664][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.800 ms (total: 9.78 sec)
+[2025.12.19-15.50.55:940][660]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14494.760742
+[2025.12.19-15.50.56:106][672]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.19-15.50.56:106][672]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14494.913086, Update Interval: 316.577057
+[2025.12.19-15.51.17:224][573]LogDerivedDataCache: C:/Users/game/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.19-15.51.18:082][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.12.19-15.51.44:190][641]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.19-15.51.44:200][641]LogContentBundle: [L_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-15.51.44:200][641]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' started...
+[2025.12.19-15.51.44:201][641]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' took 1.040 ms (total: 238.822 ms)
+[2025.12.19-15.51.44:201][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-15.51.44:227][641]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.51.44:235][641]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-15.51.44:237][641]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.755 ms (total: 221.818 ms)
+[2025.12.19-15.51.44:237][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010376s)
+[2025.12.19-15.51.44:237][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_ThirdPerson.L_ThirdPerson to /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson (0.010417s)
+[2025.12.19-15.51.44:276][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.12.19-15.51.44:280][641]LogChaosDD: Creating Chaos Debug Draw Scene for world L_ThirdPerson
+[2025.12.19-15.51.44:281][641]LogWorldPartition: ULevel::OnLevelLoaded(L_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-15.51.44:281][641]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-15.51.44:282][641]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-15.51.44:282][641]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-15.51.44:285][641]LogWorldPartition: Display: WorldPartition initialize took 3.357 ms (total: 844.354 ms)
+[2025.12.19-15.51.44:285][641]LogPlayLevel: PIE: World Init took: (0.005091s)
+[2025.12.19-15.51.44:286][641]LogAudio: Display: Creating Audio Device:                 Id: 178, Scope: Unique, Realtime: True
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-15.51.44:286][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-15.51.44:286][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-15.51.44:286][641]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-15.51.44:286][641]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-15.51.44:286][641]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-15.51.44:288][641]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-15.51.44:298][641]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-15.51.44:298][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-15.51.44:298][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-15.51.44:298][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-15.51.44:299][641]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=178
+[2025.12.19-15.51.44:299][641]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=178
+[2025.12.19-15.51.44:301][641]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=178
+[2025.12.19-15.51.44:301][641]LogInit: FAudioDevice initialized with ID 178.
+[2025.12.19-15.51.44:301][641]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=178
+[2025.12.19-15.51.44:301][641]LogAudio: Display: Audio Device (ID: 178) registered with world 'L_ThirdPerson'.
+[2025.12.19-15.51.44:301][641]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 178
+[2025.12.19-15.51.44:305][641]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-15.51.44:305][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:305][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1127358071.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1684404147.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1677989146.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1649457143.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1659390144.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1691936148.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:306][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1633163142.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:307][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:307][641]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1DAD02_1371803331.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.51.44:308][641]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson up for play (max tick rate 0) at 2025.12.19-16.51.44
+[2025.12.19-15.51.44:308][641]LogWorld: Bringing up level for play took: 0.002872
+[2025.12.19-15.51.44:310][641]LogOnline: OSS: Created online subsystem instance for: :Context_234
+[2025.12.19-15.51.44:315][641]PIE: Server logged in
+[2025.12.19-15.51.44:318][641]PIE: Play in editor total start time 0,119 seconds.
+[2025.12.19-15.51.44:370][642]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-15.52.57:306][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.52.57:306][411]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.52.57:307][411]LogWorld: UWorld::CleanupWorld for L_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-15.52.57:308][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.52.57:308][411]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson
+[2025.12.19-15.52.57:309][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-15.52.57:315][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.52.57:343][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.52.57:343][411]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 178
+[2025.12.19-15.52.57:343][411]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=178, StreamState=4
+[2025.12.19-15.52.57:345][411]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=178, StreamState=2
+[2025.12.19-15.52.57:353][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.12.19-15.52.57:421][412]LogPlayLevel: Display: Destroying online subsystem :Context_234
+[2025.12.19-15.53.03:450][911]Cmd: DELETE
+[2025.12.19-15.53.03:450][911]Cmd: ACTOR DELETE
+[2025.12.19-15.53.03:452][911]LogEditorActor: Deleted Actor: BP_Bump_C
+[2025.12.19-15.53.03:486][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.12.19-15.53.03:490][911]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2025.12.19-15.53.09:658][456]LogContentBundle: [L_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-15.53.09:658][456]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' started...
+[2025.12.19-15.53.09:658][456]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' took 743 us (total: 239.565 ms)
+[2025.12.19-15.53.09:659][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-15.53.09:659][456]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.53.09:667][456]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-15.53.09:669][456]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.838 ms (total: 223.657 ms)
+[2025.12.19-15.53.09:669][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010516s)
+[2025.12.19-15.53.09:669][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_ThirdPerson.L_ThirdPerson to /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson (0.010543s)
+[2025.12.19-15.53.09:696][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.12.19-15.53.09:700][456]LogChaosDD: Creating Chaos Debug Draw Scene for world L_ThirdPerson
+[2025.12.19-15.53.09:702][456]LogWorldPartition: ULevel::OnLevelLoaded(L_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-15.53.09:702][456]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-15.53.09:702][456]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-15.53.09:702][456]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-15.53.09:704][456]LogWorldPartition: Display: WorldPartition initialize took 2.363 ms (total: 846.717 ms)
+[2025.12.19-15.53.09:704][456]LogPlayLevel: PIE: World Init took: (0.004120s)
+[2025.12.19-15.53.09:705][456]LogAudio: Display: Creating Audio Device:                 Id: 179, Scope: Unique, Realtime: True
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-15.53.09:705][456]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-15.53.09:705][456]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-15.53.09:705][456]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-15.53.09:705][456]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-15.53.09:705][456]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-15.53.09:707][456]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-15.53.09:717][456]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-15.53.09:718][456]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-15.53.09:718][456]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-15.53.09:718][456]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-15.53.09:718][456]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=179
+[2025.12.19-15.53.09:718][456]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=179
+[2025.12.19-15.53.09:720][456]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=179
+[2025.12.19-15.53.09:720][456]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=179
+[2025.12.19-15.53.09:720][456]LogInit: FAudioDevice initialized with ID 179.
+[2025.12.19-15.53.09:720][456]LogAudio: Display: Audio Device (ID: 179) registered with world 'L_ThirdPerson'.
+[2025.12.19-15.53.09:720][456]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 179
+[2025.12.19-15.53.09:725][456]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-15.53.09:725][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:725][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:725][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1684404147.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1677989146.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1649457143.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1659390144.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1691936148.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1633163142.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:726][456]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1DAD02_1371803331.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.09:728][456]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson up for play (max tick rate 0) at 2025.12.19-16.53.09
+[2025.12.19-15.53.09:728][456]LogWorld: Bringing up level for play took: 0.002875
+[2025.12.19-15.53.09:730][456]LogOnline: OSS: Created online subsystem instance for: :Context_235
+[2025.12.19-15.53.09:735][456]PIE: Server logged in
+[2025.12.19-15.53.09:737][456]PIE: Play in editor total start time 0,079 seconds.
+[2025.12.19-15.53.09:790][457]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-15.53.41:376][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.53.41:376][252]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.53.41:376][252]LogWorld: UWorld::CleanupWorld for L_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-15.53.41:377][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.53.41:377][252]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson
+[2025.12.19-15.53.41:379][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-15.53.41:384][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.53.41:408][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.53.41:409][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 179
+[2025.12.19-15.53.41:409][252]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=179, StreamState=4
+[2025.12.19-15.53.41:411][252]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=179, StreamState=2
+[2025.12.19-15.53.41:418][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.12.19-15.53.41:482][253]LogPlayLevel: Display: Destroying online subsystem :Context_235
+[2025.12.19-15.53.47:676][777]Cmd: DELETE
+[2025.12.19-15.53.47:676][777]Cmd: ACTOR DELETE
+[2025.12.19-15.53.47:678][777]LogEditorActor: Deleted Actor: BP_Bump_C
+[2025.12.19-15.53.47:711][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.12.19-15.53.47:715][777]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2025.12.19-15.53.50:745][ 17]LogContentBundle: [L_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-15.53.50:745][ 17]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' started...
+[2025.12.19-15.53.50:746][ 17]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' took 826 us (total: 240.392 ms)
+[2025.12.19-15.53.50:746][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-15.53.50:775][ 17]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.53.50:783][ 17]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-15.53.50:785][ 17]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.643 ms (total: 225.301 ms)
+[2025.12.19-15.53.50:785][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009619s)
+[2025.12.19-15.53.50:785][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_ThirdPerson.L_ThirdPerson to /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson (0.009656s)
+[2025.12.19-15.53.50:809][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.12.19-15.53.50:813][ 17]LogChaosDD: Creating Chaos Debug Draw Scene for world L_ThirdPerson
+[2025.12.19-15.53.50:815][ 17]LogWorldPartition: ULevel::OnLevelLoaded(L_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-15.53.50:815][ 17]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-15.53.50:815][ 17]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-15.53.50:815][ 17]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-15.53.50:817][ 17]LogWorldPartition: Display: WorldPartition initialize took 2.115 ms (total: 848.833 ms)
+[2025.12.19-15.53.50:817][ 17]LogPlayLevel: PIE: World Init took: (0.003991s)
+[2025.12.19-15.53.50:818][ 17]LogAudio: Display: Creating Audio Device:                 Id: 180, Scope: Unique, Realtime: True
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-15.53.50:818][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-15.53.50:818][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-15.53.50:818][ 17]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-15.53.50:818][ 17]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-15.53.50:818][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-15.53.50:820][ 17]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-15.53.50:829][ 17]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-15.53.50:830][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-15.53.50:830][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-15.53.50:830][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-15.53.50:830][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=180
+[2025.12.19-15.53.50:830][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=180
+[2025.12.19-15.53.50:832][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=180
+[2025.12.19-15.53.50:832][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=180
+[2025.12.19-15.53.50:832][ 17]LogInit: FAudioDevice initialized with ID 180.
+[2025.12.19-15.53.50:832][ 17]LogAudio: Display: Audio Device (ID: 180) registered with world 'L_ThirdPerson'.
+[2025.12.19-15.53.50:832][ 17]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 180
+[2025.12.19-15.53.50:837][ 17]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-15.53.50:837][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:837][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:837][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1684404147.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1677989146.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1649457143.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1659390144.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1633163142.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:838][ 17]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1DAD02_1371803331.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.53.50:839][ 17]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson up for play (max tick rate 0) at 2025.12.19-16.53.50
+[2025.12.19-15.53.50:840][ 17]LogWorld: Bringing up level for play took: 0.002828
+[2025.12.19-15.53.50:842][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_236
+[2025.12.19-15.53.50:847][ 17]PIE: Server logged in
+[2025.12.19-15.53.50:849][ 17]PIE: Play in editor total start time 0,105 seconds.
+[2025.12.19-15.53.50:897][ 18]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-15.54.00:177][834]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=462.00 Y=-382.83 Z=0.00 Location: X=2415.10 Y=1691.18 Z=90.75 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:7.214 Actor:BP_BlocPiege_Child_C_UAID_C01803C181FB1EAD02_2070119513 Component:Cube BoneName:None (0 other events since notify)
+[2025.12.19-15.54.04:180][184]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=409.03 Y=-438.97 Z=0.00 Location: X=2475.05 Y=1734.96 Z=91.03 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:28.627 Actor:BP_BlocPiege_Child_C_UAID_C01803C181FB1EAD02_2070119513 Component:Cube BoneName:None (1 other events since notify)
+[2025.12.19-15.54.06:126][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.54.06:126][354]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.54.06:126][354]LogWorld: UWorld::CleanupWorld for L_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-15.54.06:127][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.54.06:127][354]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson
+[2025.12.19-15.54.06:129][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-15.54.06:135][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.54.06:169][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.54.06:169][354]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 180
+[2025.12.19-15.54.06:170][354]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=180, StreamState=4
+[2025.12.19-15.54.06:172][354]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=180, StreamState=2
+[2025.12.19-15.54.06:179][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.12.19-15.54.06:245][355]LogPlayLevel: Display: Destroying online subsystem :Context_236
+[2025.12.19-15.54.23:208][796]LogContentBundle: [L_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-15.54.23:208][796]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' started...
+[2025.12.19-15.54.23:209][796]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' took 866 us (total: 241.258 ms)
+[2025.12.19-15.54.23:209][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-15.54.23:209][796]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.54.23:218][796]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-15.54.23:219][796]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.676 ms (total: 226.977 ms)
+[2025.12.19-15.54.23:219][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009830s)
+[2025.12.19-15.54.23:219][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_ThirdPerson.L_ThirdPerson to /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson (0.009856s)
+[2025.12.19-15.54.23:247][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.12.19-15.54.23:251][796]LogChaosDD: Creating Chaos Debug Draw Scene for world L_ThirdPerson
+[2025.12.19-15.54.23:253][796]LogWorldPartition: ULevel::OnLevelLoaded(L_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-15.54.23:253][796]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-15.54.23:253][796]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-15.54.23:253][796]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-15.54.23:255][796]LogWorldPartition: Display: WorldPartition initialize took 2.227 ms (total: 851.060 ms)
+[2025.12.19-15.54.23:255][796]LogPlayLevel: PIE: World Init took: (0.003973s)
+[2025.12.19-15.54.23:256][796]LogAudio: Display: Creating Audio Device:                 Id: 181, Scope: Unique, Realtime: True
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-15.54.23:256][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-15.54.23:256][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-15.54.23:256][796]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-15.54.23:256][796]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-15.54.23:256][796]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-15.54.23:258][796]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-15.54.23:268][796]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-15.54.23:269][796]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-15.54.23:269][796]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-15.54.23:269][796]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-15.54.23:269][796]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=181
+[2025.12.19-15.54.23:269][796]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=181
+[2025.12.19-15.54.23:271][796]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=181
+[2025.12.19-15.54.23:271][796]LogInit: FAudioDevice initialized with ID 181.
+[2025.12.19-15.54.23:271][796]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=181
+[2025.12.19-15.54.23:271][796]LogAudio: Display: Audio Device (ID: 181) registered with world 'L_ThirdPerson'.
+[2025.12.19-15.54.23:271][796]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 181
+[2025.12.19-15.54.23:276][796]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-15.54.23:276][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:276][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:276][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1684404147.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1677989146.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1649457143.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1659390144.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1633163142.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:277][796]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1DAD02_1371803331.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.23:279][796]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson up for play (max tick rate 0) at 2025.12.19-16.54.23
+[2025.12.19-15.54.23:279][796]LogWorld: Bringing up level for play took: 0.002800
+[2025.12.19-15.54.23:281][796]LogOnline: OSS: Created online subsystem instance for: :Context_237
+[2025.12.19-15.54.23:286][796]PIE: Server logged in
+[2025.12.19-15.54.23:288][796]PIE: Play in editor total start time 0,08 seconds.
+[2025.12.19-15.54.23:336][797]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-15.54.28:945][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.54.28:945][285]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.54.28:946][285]LogWorld: UWorld::CleanupWorld for L_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-15.54.28:946][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.54.28:947][285]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson
+[2025.12.19-15.54.28:948][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-15.54.28:953][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.54.28:981][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.54.28:981][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 181
+[2025.12.19-15.54.28:982][285]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=181, StreamState=4
+[2025.12.19-15.54.28:983][285]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=181, StreamState=2
+[2025.12.19-15.54.28:990][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.12.19-15.54.29:055][286]LogPlayLevel: Display: Destroying online subsystem :Context_237
+[2025.12.19-15.54.33:916][683]LogContentBundle: [L_ThirdPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.19-15.54.33:916][683]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' started...
+[2025.12.19-15.54.33:917][683]LogWorldPartition: Display: GenerateStreaming for 'L_ThirdPerson' took 815 us (total: 242.073 ms)
+[2025.12.19-15.54.33:917][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.19-15.54.33:917][683]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.54.33:925][683]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.19-15.54.33:927][683]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.718 ms (total: 228.696 ms)
+[2025.12.19-15.54.33:927][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009759s)
+[2025.12.19-15.54.33:927][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_ThirdPerson.L_ThirdPerson to /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson (0.009786s)
+[2025.12.19-15.54.33:954][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.12.19-15.54.33:958][683]LogChaosDD: Creating Chaos Debug Draw Scene for world L_ThirdPerson
+[2025.12.19-15.54.33:960][683]LogWorldPartition: ULevel::OnLevelLoaded(L_ThirdPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.19-15.54.33:960][683]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.19-15.54.33:960][683]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.19-15.54.33:960][683]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.19-15.54.33:962][683]LogWorldPartition: Display: WorldPartition initialize took 2.206 ms (total: 853.267 ms)
+[2025.12.19-15.54.33:962][683]LogPlayLevel: PIE: World Init took: (0.003926s)
+[2025.12.19-15.54.33:963][683]LogAudio: Display: Creating Audio Device:                 Id: 182, Scope: Unique, Realtime: True
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.19-15.54.33:963][683]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.19-15.54.33:963][683]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.19-15.54.33:963][683]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.19-15.54.33:963][683]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.19-15.54.33:963][683]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.19-15.54.33:965][683]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.19-15.54.33:974][683]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2025.12.19-15.54.33:975][683]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.19-15.54.33:975][683]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.19-15.54.33:975][683]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.19-15.54.33:975][683]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=182
+[2025.12.19-15.54.33:975][683]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=182
+[2025.12.19-15.54.33:978][683]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=182
+[2025.12.19-15.54.33:978][683]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=182
+[2025.12.19-15.54.33:978][683]LogInit: FAudioDevice initialized with ID 182.
+[2025.12.19-15.54.33:978][683]LogAudio: Display: Audio Device (ID: 182) registered with world 'L_ThirdPerson'.
+[2025.12.19-15.54.33:978][683]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 182
+[2025.12.19-15.54.33:982][683]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.19-15.54.33:982][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1121083070.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:982][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1506950041.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:982][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1932204044.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1684404147.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB55A802_1400449865.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1677989146.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1649457143.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB13AD02_2011505531.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1659390144.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB16AD02_1131343072.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBBFAC02_2131109761.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FBF1A302_1482043040.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1CAD02_1633163142.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:983][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB56A802_1702142045.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:984][683]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson:PersistentLevel.BP_Trampoline_C_UAID_C01803C181FB1DAD02_1371803331.Box has a component set to zero, which will result in a bad body instance. Scale:X=2.000 Y=2.000 Z=0.000
+[2025.12.19-15.54.33:985][683]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson up for play (max tick rate 0) at 2025.12.19-16.54.33
+[2025.12.19-15.54.33:985][683]LogWorld: Bringing up level for play took: 0.002815
+[2025.12.19-15.54.33:987][683]LogOnline: OSS: Created online subsystem instance for: :Context_238
+[2025.12.19-15.54.33:992][683]PIE: Server logged in
+[2025.12.19-15.54.33:994][683]PIE: Play in editor total start time 0,078 seconds.
+[2025.12.19-15.54.34:041][684]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.19-15.54.41:358][324]LogCharacterMovement: BP_ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=199.72 Y=-565.78 Z=0.00 Location: X=2358.98 Y=1243.72 Z=91.07 Normal: X=0.00 Y=0.00 Z=-1.00 PenetrationDepth:68.683 Actor:BP_BlocPiege_Child_C_UAID_C01803C181FB1EAD02_2070119513 Component:Cube BoneName:None (0 other events since notify)
+[2025.12.19-15.55.12:205][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.55.12:205][791]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_ThirdPerson
+[2025.12.19-15.55.12:205][791]LogWorld: UWorld::CleanupWorld for L_ThirdPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.19-15.55.12:206][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.55.12:206][791]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Level/UEDPIE_0_L_ThirdPerson.L_ThirdPerson
+[2025.12.19-15.55.12:207][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.19-15.55.12:213][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.19-15.55.12:240][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.19-15.55.12:240][791]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 182
+[2025.12.19-15.55.12:240][791]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=182, StreamState=4
+[2025.12.19-15.55.12:242][791]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=182, StreamState=2
+[2025.12.19-15.55.12:250][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.12.19-15.55.12:313][792]LogPlayLevel: Display: Destroying online subsystem :Context_238
+[2025.12.19-15.55.16:481][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.12.19-15.55.16:486][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-15.55.16:547][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.12.19-15.55.16:578][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.12.19-15.55.16:608][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.12.19-15.55.16:616][119]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/L_ThirdPerson/8/5X/2YFNOB05YYJKLNBGJQ3RQ3
+[2025.12.19-15.55.16:617][119]LogSavePackage: Moving 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Saved/2YFNOB05YYJKLNBGJQ3RQ333F3028247FE6F29B6F7999A94032F7B.tmp' to 'D:/JV2ALEXISD/GitHub/DUFRESNE_PLAT_JV2/DUF_Ale_Plat 5.6/Content/__ExternalActors__/Level/L_ThirdPerson/8/5X/2YFNOB05YYJKLNBGJQ3RQ3.uasset'
+[2025.12.19-15.55.16:631][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.262 ms (total: 9.92 sec)
+[2025.12.19-15.55.16:666][119]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.19-15.55.16:666][119]LogContentValidation: Enabled validators:
+[2025.12.19-15.55.16:666][119]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.19-15.55.16:666][119]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.19-15.55.16:666][119]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.19-15.55.16:666][119]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.19-15.55.16:666][119]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.19-15.55.16:666][119]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.19-15.55.16:666][119]AssetCheck: /Game/Level/L_ThirdPerson Validating asset
+[2025.12.19-15.56.30:204][313]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-15.56.30:293][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.12.19-15.56.30:321][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.12.19-15.56.30:350][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.12.19-15.56.30:360][313]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.996 ms (total: 10.0 sec)
+[2025.12.19-15.56.39:672][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.12.19-15.56.43:191][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.19-15.56.43:275][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.12.19-15.56.43:303][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.12.19-15.56.43:333][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2025.12.19-15.56.43:350][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.491 ms (total: 10.2 sec)
+[2025.12.19-15.56.47:370][751]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14846.243164
+[2025.12.19-15.56.48:367][754]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.19-15.56.48:367][754]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14846.911133, Update Interval: 300.206909
